@@ -1,0 +1,3 @@
+✅ Security header found: x-frame-options
+✅ Security header found: x-content-type-options
+✅ Security header found: strict-transport-security

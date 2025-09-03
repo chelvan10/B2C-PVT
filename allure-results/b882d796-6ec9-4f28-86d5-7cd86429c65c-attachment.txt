@@ -1,0 +1,2 @@
+📱 Mobile: Products tab not visible, checking results count instead
+🎯 SUCCESS: Found 13 results for "Tables" in 5852ms

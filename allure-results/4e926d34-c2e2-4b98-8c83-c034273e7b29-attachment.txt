@@ -1,0 +1,8 @@
+✅ Found 111 valid links on https://www.mitre10.co.nz
+✅ Internal link: /catalogue
+✅ Internal link: /shop/search?text=%27Makita%20Cordless%20Lawn%20Mower%20and%20Line%20Trimmer%20Kit%20CT0326&q=%27Makita%20Cordless%20Lawn%20Mower%20and%20Line%20Trimmer%20Kit%20CT0326&inStockNationwide=false&inStockSelectedStore=false&sort=RELEVANCY
+✅ Internal link: /shop/active-rapid-dishwashing-tablets-lemon-120-pack/p/394611
+✅ Found 44 valid links on https://www.mitre10.co.nz/trade
+✅ Internal link: /trade/suppliers
+✅ External link: https://www.mitre10trade.co.nz/
+✅ Internal link: https://www.mitre10.co.nz/trade/about-us

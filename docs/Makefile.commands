@@ -1,0 +1,451 @@
+# ============================================================================
+# 🚀 COMPLETE NPM & PLAYWRIGHT COMMAND REFERENCE
+# All Possible Test Execution Commands for B2C PVT Demo Framework
+# ============================================================================
+
+.PHONY: help-commands npm-* npx-* pw-*
+
+help-commands: ## 📚 Display all available NPM and Playwright commands
+	@echo "🚀 COMPLETE COMMAND REFERENCE - B2C PVT Demo Framework"
+	@echo "============================================================================"
+	@echo "📋 COMMAND CATEGORIES:"
+	@echo "  npm-*     - NPM script commands"
+	@echo "  npx-*     - Direct Playwright commands"
+	@echo "  pw-*      - Advanced Playwright options"
+	@echo ""
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "  \033[36m%-35s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+# ============================================================================
+# 🚀 CORE NPM COMMANDS
+# ============================================================================
+
+npm-test: ## 🧪 Run all tests (npm test)
+	npm test
+
+npm-test-run: ## 🧪 Run all tests (npm run test)
+	npm run test
+
+npm-test-headed: ## 👀 Run tests with visible browser
+	npm run test:headed
+
+# ============================================================================
+# 📊 NPM TEST CATEGORIES
+# ============================================================================
+
+npm-smoke: ## 💨 Critical path tests
+	npm run test:smoke
+
+npm-smoke-comprehensive: ## 🔥 Detailed smoke tests
+	npm run test:smoke:comprehensive
+
+npm-e2e: ## 🛣️ End-to-end tests
+	npm run test:e2e
+
+npm-e2e-comprehensive: ## 🎯 Comprehensive E2E tests
+	npm run test:e2e:comprehensive
+
+npm-api: ## 🔌 API validation tests
+	npm run test:api
+
+# ============================================================================
+# 📱 NPM DEVICE & BROWSER TESTING
+# ============================================================================
+
+npm-mobile: ## 📱 Android + iPhone testing
+	npm run test:mobile
+
+npm-android: ## 🤖 Android (Pixel 5) only
+	npm run test:android
+
+npm-iphone: ## 📱 iPhone 12 only
+	npm run test:iphone
+
+npm-browsers: ## 🌐 Chrome + Firefox + Edge
+	npm run test:browsers
+
+npm-all-devices: ## 🎯 All browsers + mobile devices
+	npm run test:all-devices
+
+# ============================================================================
+# 🎯 NPM TEST TYPE FILTERING
+# ============================================================================
+
+npm-positive: ## ✅ Happy path scenarios
+	npm run test:positive
+
+npm-negative: ## ❌ Error handling tests
+	npm run test:negative
+
+npm-edge: ## ⚡ Edge case scenarios
+	npm run test:edge
+
+npm-performance: ## 🚀 Performance tests
+	npm run test:performance
+
+npm-accessibility: ## ♿ Accessibility tests
+	npm run test:accessibility
+
+npm-comprehensive: ## 🏆 Smoke + E2E + API combined
+	npm run test:comprehensive
+
+# ============================================================================
+# 📊 NPM REPORTING
+# ============================================================================
+
+npm-report: ## 📊 Open HTML test report
+	npm run report
+
+npm-report-allure: ## 🎨 Generate and open Allure report
+	npm run report:allure
+
+npm-report-serve: ## 🌐 Serve Allure report on local server
+	npm run report:serve
+
+# ============================================================================
+# 🎭 DIRECT PLAYWRIGHT COMMANDS
+# ============================================================================
+
+npx-test: ## 🧪 Run all tests (npx playwright test)
+	npx playwright test
+
+npx-test-headed: ## 👀 Run with visible browser
+	npx playwright test --headed
+
+npx-test-debug: ## 🐛 Debug mode with inspector
+	npx playwright test --debug
+
+# ============================================================================
+# 🎯 PLAYWRIGHT PROJECT-SPECIFIC
+# ============================================================================
+
+npx-chrome-auth: ## 🌐 Desktop Chrome authenticated
+	npx playwright test --project=desktop-chrome-auth
+
+npx-chrome-public: ## 🌐 Desktop Chrome public pages
+	npx playwright test --project=desktop-chrome-public
+
+npx-firefox: ## 🦊 Desktop Firefox
+	npx playwright test --project=desktop-firefox
+
+npx-edge: ## 🔷 Desktop Edge
+	npx playwright test --project=desktop-edge
+
+npx-android: ## 🤖 Mobile Android (Pixel 5)
+	npx playwright test --project=mobile-android
+
+npx-iphone: ## 📱 Mobile iPhone 12
+	npx playwright test --project=mobile-iphone
+
+npx-api: ## 🔌 API testing project
+	npx playwright test --project=api
+
+npx-extensions: ## 🧩 Chrome extensions testing
+	npx playwright test --project=chromium-with-extensions
+
+# ============================================================================
+# 📁 PLAYWRIGHT FILE-SPECIFIC
+# ============================================================================
+
+npx-homepage: ## 🏠 Homepage smoke test
+	npx playwright test tests/smoke/homepage.spec.ts
+
+npx-homepage-comprehensive: ## 🏠 Comprehensive homepage test
+	npx playwright test tests/smoke/homepage-comprehensive.spec.ts
+
+npx-search: ## 🔍 Search functionality test
+	npx playwright test tests/e2e/mitre10-search.spec.ts
+
+npx-search-comprehensive: ## 🔍 Comprehensive search test
+	npx playwright test tests/e2e/mitre10-search-comprehensive.spec.ts
+
+npx-api-tests: ## 🔌 API validation tests
+	npx playwright test tests/api/mitre10-api.spec.ts
+
+# ============================================================================
+# 📂 PLAYWRIGHT DIRECTORY-SPECIFIC
+# ============================================================================
+
+npx-smoke-dir: ## 💨 All smoke tests directory
+	npx playwright test tests/smoke/
+
+npx-e2e-dir: ## 🛣️ All E2E tests directory
+	npx playwright test tests/e2e/
+
+npx-api-dir: ## 🔌 All API tests directory
+	npx playwright test tests/api/
+
+# ============================================================================
+# 🔍 PLAYWRIGHT PATTERN MATCHING
+# ============================================================================
+
+npx-grep-search: ## 🔍 Tests matching "search"
+	npx playwright test --grep="search"
+
+npx-grep-positive: ## ✅ Positive test cases
+	npx playwright test --grep="Positive Test Cases"
+
+npx-grep-negative: ## ❌ Negative test cases
+	npx playwright test --grep="Negative Test Cases"
+
+npx-grep-performance: ## 🚀 Performance tests
+	npx playwright test --grep="Performance"
+
+npx-grep-accessibility: ## ♿ Accessibility tests
+	npx playwright test --grep="Accessibility"
+
+npx-grep-edge: ## ⚡ Edge cases
+	npx playwright test --grep="Edge Cases"
+
+# ============================================================================
+# ⚡ PLAYWRIGHT ADVANCED OPTIONS
+# ============================================================================
+
+npx-parallel-4: ## ⚡ 4 parallel workers
+	npx playwright test --workers=4
+
+npx-parallel-8: ## ⚡ 8 parallel workers
+	npx playwright test --workers=8
+
+npx-serial: ## 🔄 Serial execution (1 worker)
+	npx playwright test --workers=1
+
+npx-retry-3: ## 🔄 Retry 3 times on failure
+	npx playwright test --retries=3
+
+npx-repeat-2: ## 🔄 Repeat each test 2 times
+	npx playwright test --repeat-each=2
+
+npx-timeout-60: ## ⏱️ 60 second timeout
+	npx playwright test --timeout=60000
+
+# ============================================================================
+# 📊 PLAYWRIGHT REPORTING OPTIONS
+# ============================================================================
+
+npx-report-list: ## 📋 List reporter
+	npx playwright test --reporter=list
+
+npx-report-html: ## 📊 HTML reporter
+	npx playwright test --reporter=html
+
+npx-report-json: ## 📄 JSON reporter
+	npx playwright test --reporter=json
+
+npx-report-junit: ## 📋 JUnit XML reporter
+	npx playwright test --reporter=junit
+
+npx-report-allure: ## 🎨 Allure reporter
+	npx playwright test --reporter=allure-playwright
+
+npx-report-multi: ## 📊 Multiple reporters
+	npx playwright test --reporter=list,html,json,junit,allure-playwright
+
+# ============================================================================
+# 🔧 PLAYWRIGHT OUTPUT CONTROL
+# ============================================================================
+
+npx-output-custom: ## 📁 Custom output directory
+	npx playwright test --output=custom-results
+
+npx-quiet: ## 🔇 Minimal output
+	npx playwright test --quiet
+
+npx-verbose: ## 📢 Detailed output
+	npx playwright test --verbose
+
+# ============================================================================
+# 🎯 PLAYWRIGHT COMBINED EXECUTIONS
+# ============================================================================
+
+npx-chrome-android: ## 🌐📱 Chrome + Android
+	npx playwright test --project=desktop-chrome-auth --project=mobile-android
+
+npx-firefox-edge: ## 🦊🔷 Firefox + Edge
+	npx playwright test --project=desktop-firefox --project=desktop-edge
+
+npx-all-desktop: ## 🖥️ All desktop browsers
+	npx playwright test --project=desktop-chrome-auth --project=desktop-firefox --project=desktop-edge
+
+npx-all-mobile: ## 📱 All mobile devices
+	npx playwright test --project=mobile-android --project=mobile-iphone
+
+npx-smoke-mobile: ## 💨📱 Smoke tests on mobile
+	npx playwright test tests/smoke/ --project=mobile-android
+
+npx-e2e-chrome: ## 🛣️🌐 E2E tests on Chrome
+	npx playwright test tests/e2e/ --project=desktop-chrome-auth
+
+# ============================================================================
+# 🔍 PLAYWRIGHT ADVANCED FILTERING
+# ============================================================================
+
+npx-search-android: ## 🔍🤖 Search tests on Android
+	npx playwright test --grep="search" --project=mobile-android
+
+npx-performance-json: ## 🚀📄 Performance tests with JSON report
+	npx playwright test --grep="Performance" --reporter=json
+
+npx-smoke-allure: ## 💨🎨 Smoke tests with Allure report
+	npx playwright test tests/smoke/ --reporter=allure-playwright
+
+# ============================================================================
+# 🤖 PLAYWRIGHT CI/CD OPTIMIZED
+# ============================================================================
+
+npx-ci-mode: ## 🤖 CI mode execution
+	CI=true npx playwright test
+
+npx-ci-reports: ## 🤖📊 CI with multiple reports
+	CI=true npx playwright test --reporter=list,html,junit
+
+npx-headless: ## 👻 Force headless mode
+	HEADLESS=true npx playwright test
+
+# ============================================================================
+# 🔧 PLAYWRIGHT UTILITIES
+# ============================================================================
+
+npx-install: ## 📦 Install browsers
+	npx playwright install
+
+npx-install-deps: ## 📦 Install system dependencies
+	npx playwright install-deps
+
+npx-version: ## ℹ️ Check Playwright version
+	npx playwright --version
+
+npx-codegen: ## 🎬 Generate test code
+	npx playwright codegen https://www.mitre10.co.nz/
+
+npx-codegen-ts: ## 🎬 Generate TypeScript code
+	npx playwright codegen --target=typescript https://www.mitre10.co.nz/
+
+npx-show-report: ## 📊 Open HTML report
+	npx playwright show-report
+
+npx-show-trace: ## 👁️ Open trace viewer (requires trace file)
+	npx playwright show-trace test-results/*/trace.zip
+
+# ============================================================================
+# 🌍 PLAYWRIGHT ENVIRONMENT-SPECIFIC
+# ============================================================================
+
+npx-staging: ## 🏗️ Run against staging environment
+	MITRE10_BASE_URL=https://staging.mitre10.co.nz/ npx playwright test
+
+npx-production: ## 🚀 Run against production environment
+	NODE_ENV=production npx playwright test
+
+npx-local: ## 🏠 Run against local environment
+	MITRE10_BASE_URL=http://localhost:3000/ npx playwright test
+
+# ============================================================================
+# 💪 PLAYWRIGHT STRESS & LOAD TESTING
+# ============================================================================
+
+npx-stress-test: ## 💪 High-load stress testing
+	npx playwright test --workers=8 --retries=0 --repeat-each=3
+
+npx-load-test: ## 📈 Load testing with performance focus
+	npx playwright test --grep="Performance" --workers=4 --repeat-each=5
+
+npx-endurance-test: ## 🏃 Long-running endurance test
+	npx playwright test --repeat-each=10 --timeout=120000
+
+# ============================================================================
+# 🎯 PLAYWRIGHT SPECIFIC SCENARIOS
+# ============================================================================
+
+npx-smoke-quick: ## ⚡ Quick smoke test validation
+	npx playwright test tests/smoke/homepage.spec.ts --workers=1
+
+npx-regression-full: ## 🔄 Full regression suite
+	npx playwright test --project=desktop-chrome-auth --project=mobile-android --reporter=allure-playwright
+
+npx-cross-browser: ## 🌐 Cross-browser validation
+	npx playwright test tests/smoke/ --project=desktop-chrome-auth --project=desktop-firefox --project=desktop-edge
+
+npx-mobile-comprehensive: ## 📱 Comprehensive mobile testing
+	npx playwright test --project=mobile-android --project=mobile-iphone --reporter=html
+
+# ============================================================================
+# 🔍 PLAYWRIGHT DEBUG & ANALYSIS
+# ============================================================================
+
+npx-debug-search: ## 🐛 Debug search functionality
+	npx playwright test tests/e2e/mitre10-search.spec.ts --debug
+
+npx-debug-headed: ## 🐛👀 Debug with visible browser
+	npx playwright test --debug --headed
+
+npx-trace-on: ## 📹 Run with trace collection
+	npx playwright test --trace=on
+
+npx-video-on: ## 🎥 Run with video recording
+	npx playwright test --video=on
+
+npx-screenshot-on: ## 📸 Run with screenshot capture
+	npx playwright test --screenshot=on
+
+# ============================================================================
+# 📊 PLAYWRIGHT CUSTOM COMBINATIONS
+# ============================================================================
+
+npx-full-matrix: ## 🎯 Complete device and browser matrix
+	npx playwright test --project=desktop-chrome-auth --project=desktop-firefox --project=desktop-edge --project=mobile-android --project=mobile-iphone
+
+npx-api-performance: ## 🔌🚀 API and performance tests
+	npx playwright test tests/api/ --grep="Performance"
+
+npx-security-compliance: ## 🔐✅ Security and compliance tests
+	npx playwright test --grep="security|Security|accessibility|Accessibility"
+
+# ============================================================================
+# 🎯 EXAMPLE USAGE SCENARIOS
+# ============================================================================
+
+demo-npm-quick: ## 🚀 Quick NPM demo
+	npm run test:smoke && npm run report
+
+demo-npx-comprehensive: ## 🏆 Comprehensive Playwright demo
+	npx playwright test --project=desktop-chrome-auth --project=mobile-android --reporter=allure-playwright
+
+demo-cross-platform: ## 🌐 Cross-platform demo
+	npx playwright test tests/smoke/ --project=desktop-chrome-auth --project=mobile-android --project=mobile-iphone
+
+# ============================================================================
+# 📋 COMMAND SUMMARY
+# ============================================================================
+
+commands-summary: ## 📋 Display command summary
+	@echo "📋 COMMAND SUMMARY:"
+	@echo "==================="
+	@echo "🚀 NPM Commands: $(shell grep -c "^npm-" $(MAKEFILE_LIST))"
+	@echo "🎭 NPX Commands: $(shell grep -c "^npx-" $(MAKEFILE_LIST))"
+	@echo "🎯 Total Commands: $(shell grep -c "^[a-zA-Z_-]*:" $(MAKEFILE_LIST))"
+	@echo ""
+	@echo "📚 Use 'make help-commands' for complete list"
+	@echo "🎯 Use 'make <command-name>' to execute any command"
+
+# ============================================================================
+# 🎯 QUICK REFERENCE
+# ============================================================================
+
+quick-ref: ## 📚 Quick reference guide
+	@echo "🚀 QUICK REFERENCE - Most Used Commands:"
+	@echo "========================================"
+	@echo "Basic Testing:"
+	@echo "  make npm-test              # All tests"
+	@echo "  make npm-smoke             # Smoke tests"
+	@echo "  make npm-mobile            # Mobile tests"
+	@echo ""
+	@echo "Advanced Testing:"
+	@echo "  make npx-chrome-auth       # Chrome authenticated"
+	@echo "  make npx-parallel-4        # 4 parallel workers"
+	@echo "  make npx-debug             # Debug mode"
+	@echo ""
+	@echo "Reporting:"
+	@echo "  make npm-report            # HTML report"
+	@echo "  make npm-report-allure     # Allure report"
+	@echo ""
+	@echo "📚 For complete list: make help-commands"

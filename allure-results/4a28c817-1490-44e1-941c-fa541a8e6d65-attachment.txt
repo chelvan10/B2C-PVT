@@ -1,0 +1,4 @@
+✅ Clickjacking protection: SAMEORIGIN
+✅ MIME type sniffing protection: nosniff
+⚠️ Missing XSS protection
+✅ HTTPS enforcement: max-age=15552000

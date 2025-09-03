@@ -1,0 +1,4 @@
+📊 Performance Metrics:
+          - Total Load Time: 1379ms
+          - DOM Elements: 542
+          - Images: 43

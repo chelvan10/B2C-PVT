@@ -1,0 +1,1 @@
+⚠️ Network emulation skipped for non-Chromium browser

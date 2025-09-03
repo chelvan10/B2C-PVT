@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-08-30T01:43:03.848Z",
+  "totalTests": 0,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "flaky": 0,
+  "executionTime": 0,
+  "parallelWorkers": 3,
+  "browsers": [
+    "unknown"
+  ],
+  "projects": [
+    "b2c-desktop-chrome",
+    "b2c-mobile-android",
+    "b2b-desktop-chrome",
+    "b2b-mobile-android",
+    "1centre-desktop-chrome"
+  ],
+  "performance": {
+    "avgTestDuration": 0,
+    "slowestTest": {
+      "name": "",
+      "duration": 0
+    },
+    "fastestTest": {
+      "name": "",
+      "duration": null
+    }
+  },
+  "coverage": {
+    "features": 0,
+    "criticalPaths": null,
+    "crossPlatform": 1
+  },
+  "stability": {
+    "frameworkErrors": 0,
+    "timeouts": 0,
+    "retries": 0
+  },
+  "testDetails": [],
+  "defectAnalysis": []
+}

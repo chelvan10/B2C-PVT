@@ -1,0 +1,686 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - button "Skip to Header" [ref=e6] [cursor=pointer]
+        - button "Skip to Main Content" [ref=e7] [cursor=pointer]
+        - button "Skip to Footer" [ref=e8] [cursor=pointer]
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e15]:
+            - img
+            - generic [ref=e16] [cursor=pointer]:
+              - generic [ref=e17] [cursor=pointer]: Mitre 10 MEGA Rangiora
+              - generic [ref=e18] [cursor=pointer]: Open
+              - generic [ref=e19] [cursor=pointer]: 7:00 am - 6:00 pm
+            - button "Change store" [expanded] [ref=e21] [cursor=pointer]:
+              - generic [ref=e22] [cursor=pointer]: Change store
+              - img [ref=e23] [cursor=pointer]
+          - generic [ref=e26]:
+            - link "Wishlist" [ref=e29] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Store Finder" [ref=e32] [cursor=pointer]:
+              - /url: /store-locator
+            - link "Gift Cards" [ref=e35] [cursor=pointer]:
+              - /url: /gift-cards/c/RF8888
+          - link "Mitre 10" [ref=e39] [cursor=pointer]:
+            - /url: /
+            - img "Mitre 10" [ref=e41] [cursor=pointer]
+          - generic [ref=e50]:
+            - textbox "Search for products, departments or inspiration" [ref=e51]
+            - button "search" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54] [cursor=pointer]: search
+          - generic [ref=e55]:
+            - generic:
+              - list [ref=e57]:
+                - listitem [ref=e58] [cursor=pointer]:
+                  - link "Log in" [ref=e59] [cursor=pointer]:
+                    - /url: /login
+                - listitem [ref=e60] [cursor=pointer]:
+                  - generic [ref=e61] [cursor=pointer]: Register
+              - list
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic:
+                - generic [ref=e67] [cursor=pointer]: shopping_cart
+                - generic [ref=e68]: "0"
+            - text: 
+          - generic [ref=e71]:
+            - navigation [ref=e72] [cursor=pointer]:
+              - generic [ref=e73] [cursor=pointer]: Departments
+            - navigation [ref=e74] [cursor=pointer]:
+              - generic [ref=e75] [cursor=pointer]: Easy As Guides
+            - navigation [ref=e76] [cursor=pointer]:
+              - link "Inspiration" [ref=e78] [cursor=pointer]:
+                - /url: /dreamzone
+            - navigation [ref=e79] [cursor=pointer]:
+              - link "Club" [ref=e81] [cursor=pointer]:
+                - /url: /club
+            - navigation [ref=e82] [cursor=pointer]:
+              - link "Services" [ref=e84] [cursor=pointer]:
+                - /url: /services
+            - navigation [ref=e85] [cursor=pointer]:
+              - link "Trade" [ref=e87] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/trade
+      - generic [ref=e88]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img "deals icon" [ref=e95]
+            - generic [ref=e96]:
+              - heading "Latest Deals & Offers" [level=4] [ref=e97]:
+                - link "Latest Deals & Offers" [ref=e98] [cursor=pointer]:
+                  - /url: /catalogue
+              - paragraph [ref=e99]: Shop all the latest deals in one place
+          - generic [ref=e100]:
+            - img "Price guarantee icon" [ref=e102]
+            - generic [ref=e103]:
+              - heading "Our price guarantee" [level=4] [ref=e104]:
+                - link "Our price guarantee" [ref=e105] [cursor=pointer]:
+                  - /url: /price-guarantee
+              - paragraph [ref=e106]: 15% low price guarantee*
+          - generic [ref=e107]:
+            - img "Scam warning icon" [ref=e109]
+            - generic [ref=e110]:
+              - heading "Scam warning!" [level=4] [ref=e111]:
+                - link "Scam warning!" [ref=e112] [cursor=pointer]:
+                  - /url: /scam-warnings
+              - paragraph [ref=e113]: Keep your information safe
+          - generic [ref=e114]:
+            - img "Recalls icon" [ref=e116]
+            - generic [ref=e117]:
+              - heading "Product recalls" [level=4] [ref=e118]:
+                - link "Product recalls" [ref=e119] [cursor=pointer]:
+                  - /url: /product-recalls
+              - paragraph [ref=e120]: Safety notices and information
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - link " Home" [ref=e125] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e126] [cursor=pointer]: 
+              - generic [ref=e127] [cursor=pointer]: Home
+          - listitem [ref=e128]:
+            - text: ›
+            - link "Inspiration" [ref=e129] [cursor=pointer]:
+              - /url: /dreamzone
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img "Inspiration - Get inspired to start your next project" [ref=e135]
+            - generic [ref=e137]:
+              - link "Simple styling solutions for your home Simple styling solutions for your home" [ref=e140] [cursor=pointer]:
+                - /url: /simple-styling-solutions
+                - img "Simple styling solutions for your home" [ref=e142] [cursor=pointer]
+                - generic [ref=e143] [cursor=pointer]: Simple styling solutions for your home
+              - link "Kitchen Inspiration Kitchen" [ref=e146] [cursor=pointer]:
+                - /url: /dreamzone#Kitchen-Inspiration
+                - img "Kitchen Inspiration" [ref=e148] [cursor=pointer]
+                - generic [ref=e149] [cursor=pointer]: Kitchen
+              - link "Bathroom Inspiration Bathroom" [ref=e152] [cursor=pointer]:
+                - /url: /dreamzone#Bathroom-Inspiration
+                - img "Bathroom Inspiration" [ref=e154] [cursor=pointer]
+                - generic [ref=e155] [cursor=pointer]: Bathroom
+              - link "Outdoor Living Inspiration Outdoor Living" [ref=e158] [cursor=pointer]:
+                - /url: /dreamzone#Outdoor-Inspiration
+                - img "Outdoor Living Inspiration" [ref=e160] [cursor=pointer]
+                - generic [ref=e161] [cursor=pointer]: Outdoor Living
+              - link "Living & Dining Inspiration Living & Dining" [ref=e164] [cursor=pointer]:
+                - /url: /dreamzone#Living-Dining-Inspiration
+                - img "Living & Dining Inspiration" [ref=e166] [cursor=pointer]
+                - generic [ref=e167] [cursor=pointer]: Living & Dining
+              - link "Garage & Storage Inspiration Garage & Storage" [ref=e170] [cursor=pointer]:
+                - /url: /dreamzone#Garage-Storage-Inspiration
+                - img "Garage & Storage Inspiration" [ref=e172] [cursor=pointer]
+                - generic [ref=e173] [cursor=pointer]: Garage & Storage
+              - link "Bedroom Inspiration Bedroom" [ref=e176] [cursor=pointer]:
+                - /url: /dreamzone#Bedroom-Inspiration
+                - img "Bedroom Inspiration" [ref=e178] [cursor=pointer]
+                - generic [ref=e179] [cursor=pointer]: Bedroom
+            - generic [ref=e181]:
+              - heading "Makeover of the Month" [level=2] [ref=e182]:
+                - strong [ref=e184]:
+                  - generic [ref=e185]: Makeover of the Month
+              - paragraph [ref=e186]:
+                - strong [ref=e188]: Need inspiration?
+              - paragraph [ref=e189]:
+                - generic [ref=e190]:
+                  - text: Check out these projects other Kiwi have been tackling. Show us your makeovers by entering the latest 'Show Us' posts on our
+                  - strong [ref=e191]:
+                    - link "Facebook page" [ref=e192] [cursor=pointer]:
+                      - /url: https://www.facebook.com/mitre10
+                  - text: .
+              - paragraph [ref=e193]
+          - link "Show-Us-DIY-Projects-SB-750x400px.jpg" [ref=e197] [cursor=pointer]:
+            - /url: https://www.mitre10.co.nz/diyprojects
+            - img "Show-Us-DIY-Projects-SB-750x400px.jpg" [ref=e199] [cursor=pointer]
+          - generic [ref=e200]:
+            - link "Show-Us-Small-Projects-SB-750x190px.jpg" [ref=e203] [cursor=pointer]:
+              - /url: https://www.mitre10.co.nz/smallprojects
+              - img "Show-Us-Small-Projects-SB-750x190px.jpg" [ref=e205] [cursor=pointer]
+            - link "Show-Us-Kitchen-Bathroom-Renovations-SB-750x190px.jpg" [ref=e208] [cursor=pointer]:
+              - /url: https://www.mitre10.co.nz/kitchenrenovations
+              - img "Show-Us-Kitchen-Bathroom-Renovations-SB-750x190px.jpg" [ref=e210] [cursor=pointer]
+          - generic [ref=e211]:
+            - generic [ref=e213]:
+              - img "4 Steps to Your Dream Kitchen" [ref=e215]
+              - generic [ref=e216]:
+                - link "1. Dream" [ref=e219] [cursor=pointer]:
+                  - /url: /kitchens
+                - link "2. Plan" [ref=e222] [cursor=pointer]:
+                  - /url: /kitchenplanner
+                - link "3. Book" [ref=e225] [cursor=pointer]:
+                  - /url: /booking-tool
+                - link "4. Shop" [ref=e228] [cursor=pointer]:
+                  - /url: /shop/kitchen-bathroom/kitchens
+                - link "Get Started" [ref=e231] [cursor=pointer]:
+                  - /url: /kitchens
+            - heading "Kitchen" [level=2] [ref=e234]:
+              - generic [ref=e236]: Kitchen
+            - generic [ref=e238]:
+              - link "Selecting the right tapware for your kitchen Selecting the right tapware for your kitchen" [ref=e240] [cursor=pointer]:
+                - /url: /dreamzone/article/refresh-your-kitchen-with-a-new-tap
+                - img "Selecting the right tapware for your kitchen" [ref=e242] [cursor=pointer]
+                - generic [ref=e243] [cursor=pointer]: Selecting the right tapware for your kitchen
+              - link "Get the most from your kitchen design Get the most from your kitchen design" [ref=e245] [cursor=pointer]:
+                - /url: /dreamzone/article/design-a-kitchen
+                - img "Get the most from your kitchen design" [ref=e247] [cursor=pointer]
+                - generic [ref=e248] [cursor=pointer]: Get the most from your kitchen design
+              - link "Eight easy ways to organise your kitchen Eight easy ways to organise your kitchen" [ref=e250] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-storage
+                - img "Eight easy ways to organise your kitchen" [ref=e252] [cursor=pointer]
+                - generic [ref=e253] [cursor=pointer]: Eight easy ways to organise your kitchen
+              - link "Repaint your kitchen cabinetry for a whole new look Repaint your kitchen cabinetry for a whole new look" [ref=e255] [cursor=pointer]:
+                - /url: /dreamzone/article/repaint-your-kitchen-cabinetry-for-a-whole-new-look
+                - img "Repaint your kitchen cabinetry for a whole new look" [ref=e257] [cursor=pointer]
+                - generic [ref=e258] [cursor=pointer]: Repaint your kitchen cabinetry for a whole new look
+              - link "Kitchen lighting Kitchen lighting" [ref=e260] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-lighting
+                - img "Kitchen lighting" [ref=e262] [cursor=pointer]
+                - generic [ref=e263] [cursor=pointer]: Kitchen lighting
+              - link "Update your kitchen with new cabinetry Update your kitchen with new cabinetry" [ref=e265] [cursor=pointer]:
+                - /url: /dreamzone/article/update-your-kitchen-with-new-cabinetry
+                - img "Update your kitchen with new cabinetry" [ref=e267] [cursor=pointer]
+                - generic [ref=e268] [cursor=pointer]: Update your kitchen with new cabinetry
+              - link "Update your kitchen with a new cooktop Update your kitchen with a new cooktop" [ref=e270] [cursor=pointer]:
+                - /url: /dreamzone/article/update-your-kitchen-with-a-new-cooktop
+                - img "Update your kitchen with a new cooktop" [ref=e272] [cursor=pointer]
+                - generic [ref=e273] [cursor=pointer]: Update your kitchen with a new cooktop
+              - link "Get the look - renovate your whole kitchen Get the look - renovate your whole kitchen" [ref=e275] [cursor=pointer]:
+                - /url: /dreamzone/article/get-the-look-renovate-your-whole-kitchen
+                - img "Get the look - renovate your whole kitchen" [ref=e277] [cursor=pointer]
+                - generic [ref=e278] [cursor=pointer]: Get the look - renovate your whole kitchen
+              - link "Restyle and update your kitchen Restyle and update your kitchen" [ref=e280] [cursor=pointer]:
+                - /url: /dreamzone/article/restyle-and-update-your-kitchen
+                - img "Restyle and update your kitchen" [ref=e282] [cursor=pointer]
+                - generic [ref=e283] [cursor=pointer]: Restyle and update your kitchen
+              - link "Kitchen mosaic tiles Kitchen mosaic tiles" [ref=e285] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-mosaic-tiles
+                - img "Kitchen mosaic tiles" [ref=e287] [cursor=pointer]
+                - generic [ref=e288] [cursor=pointer]: Kitchen mosaic tiles
+              - link "Functional layouts for your kitchen Functional layouts for your kitchen" [ref=e290] [cursor=pointer]:
+                - /url: /dreamzone/article/functional-layouts-for-your-kitchen
+                - img "Functional layouts for your kitchen" [ref=e292] [cursor=pointer]
+                - generic [ref=e293] [cursor=pointer]: Functional layouts for your kitchen
+              - link "Kitchen flooring Kitchen flooring" [ref=e295] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-flooring
+                - img "Kitchen flooring" [ref=e297] [cursor=pointer]
+                - generic [ref=e298] [cursor=pointer]: Kitchen flooring
+              - link "Warm and bright lighting Warm and bright lighting" [ref=e300] [cursor=pointer]:
+                - /url: /dreamzone/article/warm-and-bright-lighting
+                - img "Warm and bright lighting" [ref=e302] [cursor=pointer]
+                - generic [ref=e303] [cursor=pointer]: Warm and bright lighting
+              - link "Kitchen sinks Kitchen sinks" [ref=e305] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-sinks
+                - img "Kitchen sinks" [ref=e307] [cursor=pointer]
+                - generic [ref=e308] [cursor=pointer]: Kitchen sinks
+              - link "Kitchen splashbacks Kitchen splashbacks" [ref=e310] [cursor=pointer]:
+                - /url: /dreamzone/article/kitchen-splashbacks
+                - img "Kitchen splashbacks" [ref=e312] [cursor=pointer]
+                - generic [ref=e313] [cursor=pointer]: Kitchen splashbacks
+              - link "Decorative storage Decorative storage" [ref=e315] [cursor=pointer]:
+                - /url: /dreamzone/article/decorative-storage
+                - img "Decorative storage" [ref=e317] [cursor=pointer]
+                - generic [ref=e318] [cursor=pointer]: Decorative storage
+              - link "White kitchen appliances White kitchen appliances" [ref=e320] [cursor=pointer]:
+                - /url: /dreamzone/article/white-kitchen-appliances
+                - img "White kitchen appliances" [ref=e322] [cursor=pointer]
+                - generic [ref=e323] [cursor=pointer]: White kitchen appliances
+              - link "Refresh your kitchen with a new rangehood Refresh your kitchen with a new rangehood" [ref=e325] [cursor=pointer]:
+                - /url: /dreamzone/article/refresh-your-kitchen-with-a-new-rangehood
+                - img "Refresh your kitchen with a new rangehood" [ref=e327] [cursor=pointer]
+                - generic [ref=e328] [cursor=pointer]: Refresh your kitchen with a new rangehood
+            - link "Your bathroom project starts here" [ref=e331] [cursor=pointer]:
+              - /url: ""
+              - img "Your bathroom project starts here" [ref=e332] [cursor=pointer]
+            - heading "Bathroom" [level=2] [ref=e335]:
+              - generic [ref=e337]: Bathroom
+            - generic [ref=e339]:
+              - link "Shower styles that fit your space Shower styles that fit your space" [ref=e341] [cursor=pointer]:
+                - /url: /shower-styles-that-fit-your-space
+                - img "Shower styles that fit your space" [ref=e343] [cursor=pointer]
+                - generic [ref=e344] [cursor=pointer]: Shower styles that fit your space
+              - link "Five ways to refresh your bathroom Five ways to refresh your bathroom" [ref=e346] [cursor=pointer]:
+                - /url: /dreamzone/article/five-ways-to-refresh-your-bathroom
+                - img "Five ways to refresh your bathroom" [ref=e348] [cursor=pointer]
+                - generic [ref=e349] [cursor=pointer]: Five ways to refresh your bathroom
+              - link "Smarten up your bathroom with a new vanity or sink Smarten up your bathroom with a new vanity or sink" [ref=e351] [cursor=pointer]:
+                - /url: /dreamzone/article/smarten-up-your-bathroom-with-a-new-vanity-or-sink
+                - img "Smarten up your bathroom with a new vanity or sink" [ref=e353] [cursor=pointer]
+                - generic [ref=e354] [cursor=pointer]: Smarten up your bathroom with a new vanity or sink
+              - link "Change your tapware to refresh your bathroom with ease Change your tapware to refresh your bathroom with ease" [ref=e356] [cursor=pointer]:
+                - /url: /dreamzone/article/change-your-tapware-to-refresh-your-bathroom-with-ease
+                - img "Change your tapware to refresh your bathroom with ease" [ref=e358] [cursor=pointer]
+                - generic [ref=e359] [cursor=pointer]: Change your tapware to refresh your bathroom with ease
+              - link "Refresh your bathroom with a new bath tub Refresh your bathroom with a new bath tub" [ref=e361] [cursor=pointer]:
+                - /url: /dreamzone/article/refresh-your-bathroom-with-a-new-bath-tub
+                - img "Refresh your bathroom with a new bath tub" [ref=e363] [cursor=pointer]
+                - generic [ref=e364] [cursor=pointer]: Refresh your bathroom with a new bath tub
+              - link "Mosaic tiling for a contemporary, stylish look Mosaic tiling for a contemporary, stylish look" [ref=e366] [cursor=pointer]:
+                - /url: /dreamzone/article/mosaic-tiling-for-a-contemporary-stylish-look
+                - img "Mosaic tiling for a contemporary, stylish look" [ref=e368] [cursor=pointer]
+                - generic [ref=e369] [cursor=pointer]: Mosaic tiling for a contemporary, stylish look
+              - link "Improve the impact of the smallest room Improve the impact of the smallest room" [ref=e371] [cursor=pointer]:
+                - /url: /dreamzone/article/improve-the-impact-of-the-smallest-room
+                - img "Improve the impact of the smallest room" [ref=e373] [cursor=pointer]
+                - generic [ref=e374] [cursor=pointer]: Improve the impact of the smallest room
+              - link "Transform your bathroom from the floor up Transform your bathroom from the floor up" [ref=e376] [cursor=pointer]:
+                - /url: /dreamzone/article/transform-your-bathroom-from-the-floor-up
+                - img "Transform your bathroom from the floor up" [ref=e378] [cursor=pointer]
+                - generic [ref=e379] [cursor=pointer]: Transform your bathroom from the floor up
+              - link "Re-do your bathroom with a complete renovation Re-do your bathroom with a complete renovation" [ref=e381] [cursor=pointer]:
+                - /url: /dreamzone/article/re-do-your-bathroom-with-a-complete-renovation
+                - img "Re-do your bathroom with a complete renovation" [ref=e383] [cursor=pointer]
+                - generic [ref=e384] [cursor=pointer]: Re-do your bathroom with a complete renovation
+              - link "Warm and bright lighting Warm and bright lighting" [ref=e386] [cursor=pointer]:
+                - /url: /dreamzone/article/warm-and-bright-lighting
+                - img "Warm and bright lighting" [ref=e388] [cursor=pointer]
+                - generic [ref=e389] [cursor=pointer]: Warm and bright lighting
+              - link "Bathroom lighting Bathroom lighting" [ref=e391] [cursor=pointer]:
+                - /url: /dreamzone/article/bathroom-lighting
+                - img "Bathroom lighting" [ref=e393] [cursor=pointer]
+                - generic [ref=e394] [cursor=pointer]: Bathroom lighting
+              - link "Create a stylish two-tone bathroom Create a stylish two-tone bathroom" [ref=e396] [cursor=pointer]:
+                - /url: /dreamzone/article/create-a-stylish-two-tone-bathroom
+                - img "Create a stylish two-tone bathroom" [ref=e398] [cursor=pointer]
+                - generic [ref=e399] [cursor=pointer]: Create a stylish two-tone bathroom
+              - link "Nouveau bliss bath Nouveau bliss bath" [ref=e401] [cursor=pointer]:
+                - /url: /dreamzone/article/nouveau-bliss-bath
+                - img "Nouveau bliss bath" [ref=e403] [cursor=pointer]
+                - generic [ref=e404] [cursor=pointer]: Nouveau bliss bath
+              - link "Bathroom storage Bathroom storage" [ref=e406] [cursor=pointer]:
+                - /url: /dreamzone/article/bathroom-storage
+                - img "Bathroom storage" [ref=e408] [cursor=pointer]
+                - generic [ref=e409] [cursor=pointer]: Bathroom storage
+              - link "Instant style with a vessel basin Instant style with a vessel basin" [ref=e411] [cursor=pointer]:
+                - /url: /dreamzone/article/instant-style-with-a-vessel-basin
+                - img "Instant style with a vessel basin" [ref=e413] [cursor=pointer]
+                - generic [ref=e414] [cursor=pointer]: Instant style with a vessel basin
+            - heading "Outdoor Living" [level=2] [ref=e417]:
+              - generic [ref=e419]: Outdoor Living
+            - link [ref=e422] [cursor=pointer]:
+              - /url: /weekend-makeover/courtyard
+            - generic [ref=e424]:
+              - link "Exterior Lighting Exterior Lighting" [ref=e426] [cursor=pointer]:
+                - /url: /dreamzone/article/exterior-lighting
+                - img "Exterior Lighting" [ref=e428] [cursor=pointer]
+                - generic [ref=e429] [cursor=pointer]: Exterior Lighting
+              - link "Backyard projects on a budget Backyard projects on a budget" [ref=e431] [cursor=pointer]:
+                - /url: /dreamzone/article/backyard-projects-on-a-budget
+                - img "Backyard projects on a budget" [ref=e433] [cursor=pointer]
+                - generic [ref=e434] [cursor=pointer]: Backyard projects on a budget
+              - link "Decking - colour, stain, finish, space and design Decking - colour, stain, finish, space and design" [ref=e436] [cursor=pointer]:
+                - /url: /dreamzone/article/decking-colour-stain-finish-space-and-design
+                - img "Decking - colour, stain, finish, space and design" [ref=e438] [cursor=pointer]
+                - generic [ref=e439] [cursor=pointer]: Decking - colour, stain, finish, space and design
+              - link "Outdoor landscaping features Outdoor landscaping features" [ref=e441] [cursor=pointer]:
+                - /url: /dreamzone/article/outdoor-landscaping-features
+                - img "Outdoor landscaping features" [ref=e443] [cursor=pointer]
+                - generic [ref=e444] [cursor=pointer]: Outdoor landscaping features
+              - link "Holiday entertaining Holiday entertaining" [ref=e446] [cursor=pointer]:
+                - /url: /dreamzone/article/holiday-entertaining
+                - img "Holiday entertaining" [ref=e448] [cursor=pointer]
+                - generic [ref=e449] [cursor=pointer]: Holiday entertaining
+              - link "House numbers House numbers" [ref=e451] [cursor=pointer]:
+                - /url: /dreamzone/article/house-numbers
+                - img "House numbers" [ref=e453] [cursor=pointer]
+                - generic [ref=e454] [cursor=pointer]: House numbers
+              - link "Stacking firewood Stacking firewood" [ref=e456] [cursor=pointer]:
+                - /url: /dreamzone/article/stacking-firewood
+                - img "Stacking firewood" [ref=e458] [cursor=pointer]
+                - generic [ref=e459] [cursor=pointer]: Stacking firewood
+            - link [ref=e462] [cursor=pointer]:
+              - /url: /gardening-tips
+            - heading "Living & Dining" [level=2] [ref=e465]:
+              - generic [ref=e467]: Living & Dining
+            - generic [ref=e469]:
+              - link "How to prep for a painting project How to prep for a painting project" [ref=e471] [cursor=pointer]:
+                - /url: /dreamzone/article/how-to-prep-for-a-painting-project
+                - img "How to prep for a painting project" [ref=e473] [cursor=pointer]
+                - generic [ref=e474] [cursor=pointer]: How to prep for a painting project
+              - link "5 brilliant lighting trends to try 5 brilliant lighting trends to try" [ref=e476] [cursor=pointer]:
+                - /url: /dreamzone/article/lighting-trends
+                - img "5 brilliant lighting trends to try" [ref=e478] [cursor=pointer]
+                - generic [ref=e479] [cursor=pointer]: 5 brilliant lighting trends to try
+              - link "Freshen up your home with new curtains and blinds Freshen up your home with new curtains and blinds" [ref=e481] [cursor=pointer]:
+                - /url: /dreamzone/article/freshen-up-your-home-with-new-curtains-and-blinds
+                - img "Freshen up your home with new curtains and blinds" [ref=e483] [cursor=pointer]
+                - generic [ref=e484] [cursor=pointer]: Freshen up your home with new curtains and blinds
+              - link "Entrances - space, colour, lighting, mirrors Entrances - space, colour, lighting, mirrors" [ref=e486] [cursor=pointer]:
+                - /url: /dreamzone/article/entrances-space-colour-lighting-mirrors
+                - img "Entrances - space, colour, lighting, mirrors" [ref=e488] [cursor=pointer]
+                - generic [ref=e489] [cursor=pointer]: Entrances - space, colour, lighting, mirrors
+              - link "Living space - natural colours, neutral shades Living space - natural colours, neutral shades" [ref=e491] [cursor=pointer]:
+                - /url: /dreamzone/article/living-space-natural-colours-neutral-shades
+                - img "Living space - natural colours, neutral shades" [ref=e493] [cursor=pointer]
+                - generic [ref=e494] [cursor=pointer]: Living space - natural colours, neutral shades
+              - link "Living room design, lighting and space Living room design, lighting and space" [ref=e496] [cursor=pointer]:
+                - /url: /dreamzone/article/living-room-design-lighting-and-space
+                - img "Living room design, lighting and space" [ref=e498] [cursor=pointer]
+                - generic [ref=e499] [cursor=pointer]: Living room design, lighting and space
+              - link "Dining spaces and design Dining spaces and design" [ref=e501] [cursor=pointer]:
+                - /url: /dreamzone/article/dining-spaces-and-design
+                - img "Dining spaces and design" [ref=e503] [cursor=pointer]
+                - generic [ref=e504] [cursor=pointer]: Dining spaces and design
+              - link "Paint and distress your furniture Paint and distress your furniture" [ref=e506] [cursor=pointer]:
+                - /url: /dreamzone/article/paint-and-distress-your-furniture
+                - img "Paint and distress your furniture" [ref=e508] [cursor=pointer]
+                - generic [ref=e509] [cursor=pointer]: Paint and distress your furniture
+              - link "Interior painting, lighting and design Interior painting, lighting and design" [ref=e511] [cursor=pointer]:
+                - /url: /dreamzone/article/interior-painting-lighting-and-design
+                - img "Interior painting, lighting and design" [ref=e513] [cursor=pointer]
+                - generic [ref=e514] [cursor=pointer]: Interior painting, lighting and design
+              - link "Living room flooring Living room flooring" [ref=e516] [cursor=pointer]:
+                - /url: /dreamzone/article/living-room-flooring
+                - img "Living room flooring" [ref=e518] [cursor=pointer]
+                - generic [ref=e519] [cursor=pointer]: Living room flooring
+              - link "Build your own wine rack or wine cellar Build your own wine rack or wine cellar" [ref=e521] [cursor=pointer]:
+                - /url: /dreamzone/article/build-your-own-wine-rack-or-wine-cellar
+                - img "Build your own wine rack or wine cellar" [ref=e523] [cursor=pointer]
+                - generic [ref=e524] [cursor=pointer]: Build your own wine rack or wine cellar
+              - link "Warm and bright lighting Warm and bright lighting" [ref=e526] [cursor=pointer]:
+                - /url: /dreamzone/article/warm-and-bright-lighting
+                - img "Warm and bright lighting" [ref=e528] [cursor=pointer]
+                - generic [ref=e529] [cursor=pointer]: Warm and bright lighting
+              - link "Create a contemporary lounge Create a contemporary lounge" [ref=e531] [cursor=pointer]:
+                - /url: /dreamzone/article/create-a-contemporary-lounge
+                - img "Create a contemporary lounge" [ref=e533] [cursor=pointer]
+                - generic [ref=e534] [cursor=pointer]: Create a contemporary lounge
+              - link "Create an inspiring office Create an inspiring office" [ref=e536] [cursor=pointer]:
+                - /url: /dreamzone/article/create-an-inspiring-office
+                - img "Create an inspiring office" [ref=e538] [cursor=pointer]
+                - generic [ref=e539] [cursor=pointer]: Create an inspiring office
+              - link "Create a dining room to entertain Create a dining room to entertain" [ref=e541] [cursor=pointer]:
+                - /url: /dreamzone/article/create-a-dining-room-to-entertain
+                - img "Create a dining room to entertain" [ref=e543] [cursor=pointer]
+                - generic [ref=e544] [cursor=pointer]: Create a dining room to entertain
+              - link "Liv's product pick Liv's product pick" [ref=e546] [cursor=pointer]:
+                - /url: /dreamzone/article/livs-product-pick
+                - img "Liv's product pick" [ref=e548] [cursor=pointer]
+                - generic [ref=e549] [cursor=pointer]: Liv's product pick
+              - link "Heating and curtains Heating and curtains" [ref=e551] [cursor=pointer]:
+                - /url: /dreamzone/article/heating-and-curtains
+                - img "Heating and curtains" [ref=e553] [cursor=pointer]
+                - generic [ref=e554] [cursor=pointer]: Heating and curtains
+              - link "Fireplace with woodstacker Fireplace with woodstacker" [ref=e556] [cursor=pointer]:
+                - /url: /dreamzone/article/fireplace-with-woodstacker
+                - img "Fireplace with woodstacker" [ref=e558] [cursor=pointer]
+                - generic [ref=e559] [cursor=pointer]: Fireplace with woodstacker
+              - link "Create an on trend lounge using colour Create an on trend lounge using colour" [ref=e561] [cursor=pointer]:
+                - /url: /dreamzone/article/create-an-on-trend-lounge-using-colour
+                - img "Create an on trend lounge using colour" [ref=e563] [cursor=pointer]
+                - generic [ref=e564] [cursor=pointer]: Create an on trend lounge using colour
+            - heading "Garage & Storage" [level=2] [ref=e567]:
+              - generic [ref=e569]: Garage & Storage
+            - generic [ref=e571]:
+              - link "Storage solutions & design Storage solutions & design" [ref=e573] [cursor=pointer]:
+                - /url: /dreamzone/article/storage-solutions-design
+                - img "Storage solutions & design" [ref=e575] [cursor=pointer]
+                - generic [ref=e576] [cursor=pointer]: Storage solutions & design
+              - link "Install a bookcase Install a bookcase" [ref=e578] [cursor=pointer]:
+                - /url: /dreamzone/article/install-a-bookcase
+                - img "Install a bookcase" [ref=e580] [cursor=pointer]
+                - generic [ref=e581] [cursor=pointer]: Install a bookcase
+              - link "Build your own wine rack or wine cellar Build your own wine rack or wine cellar" [ref=e583] [cursor=pointer]:
+                - /url: /dreamzone/article/build-your-own-wine-rack-or-wine-cellar
+                - img "Build your own wine rack or wine cellar" [ref=e585] [cursor=pointer]
+                - generic [ref=e586] [cursor=pointer]: Build your own wine rack or wine cellar
+              - link "Refurbish your garage with new floor paint Refurbish your garage with new floor paint" [ref=e588] [cursor=pointer]:
+                - /url: /dreamzone/article/refurbish-your-garage-with-new-floor-paint
+                - img "Refurbish your garage with new floor paint" [ref=e590] [cursor=pointer]
+                - generic [ref=e591] [cursor=pointer]: Refurbish your garage with new floor paint
+              - link "The importance of a great laundry The importance of a great laundry" [ref=e593] [cursor=pointer]:
+                - /url: /dreamzone/article/the-importance-of-a-great-laundry
+                - img "The importance of a great laundry" [ref=e595] [cursor=pointer]
+                - generic [ref=e596] [cursor=pointer]: The importance of a great laundry
+              - link "Customise your storage Customise your storage" [ref=e598] [cursor=pointer]:
+                - /url: /dreamzone/article/customise-your-storage
+                - img "Customise your storage" [ref=e600] [cursor=pointer]
+                - generic [ref=e601] [cursor=pointer]: Customise your storage
+              - link "Decorative storage Decorative storage" [ref=e603] [cursor=pointer]:
+                - /url: /dreamzone/article/decorative-storage
+                - img "Decorative storage" [ref=e605] [cursor=pointer]
+                - generic [ref=e606] [cursor=pointer]: Decorative storage
+              - link "Stacking firewood Stacking firewood" [ref=e608] [cursor=pointer]:
+                - /url: /dreamzone/article/stacking-firewood
+                - img "Stacking firewood" [ref=e610] [cursor=pointer]
+                - generic [ref=e611] [cursor=pointer]: Stacking firewood
+              - link "Fireplace with woodstacker Fireplace with woodstacker" [ref=e613] [cursor=pointer]:
+                - /url: /dreamzone/article/fireplace-with-woodstacker
+                - img "Fireplace with woodstacker" [ref=e615] [cursor=pointer]
+                - generic [ref=e616] [cursor=pointer]: Fireplace with woodstacker
+            - heading "Bedroom" [level=2] [ref=e619]:
+              - generic [ref=e621]: Bedroom
+            - link [ref=e624] [cursor=pointer]:
+              - /url: /weekend-makeover/master-bedroom-season-2
+            - generic [ref=e626]:
+              - link "Freshen up your home with new curtains and blinds Freshen up your home with new curtains and blinds" [ref=e628] [cursor=pointer]:
+                - /url: /dreamzone/article/freshen-up-your-home-with-new-curtains-and-blinds
+                - img "Freshen up your home with new curtains and blinds" [ref=e630] [cursor=pointer]
+                - generic [ref=e631] [cursor=pointer]: Freshen up your home with new curtains and blinds
+              - link "Bedroom flooring Bedroom flooring" [ref=e633] [cursor=pointer]:
+                - /url: /dreamzone/article/bedroom-flooring
+                - img "Bedroom flooring" [ref=e635] [cursor=pointer]
+                - generic [ref=e636] [cursor=pointer]: Bedroom flooring
+              - link "Freshen up your bedroom with new paint or wallpaper Freshen up your bedroom with new paint or wallpaper" [ref=e638] [cursor=pointer]:
+                - /url: /dreamzone/article/freshen-up-your-bedroom-with-new-paint-or-wallpaper
+                - img "Freshen up your bedroom with new paint or wallpaper" [ref=e640] [cursor=pointer]
+                - generic [ref=e641] [cursor=pointer]: Freshen up your bedroom with new paint or wallpaper
+              - link "Complete bedroom renovation Complete bedroom renovation" [ref=e643] [cursor=pointer]:
+                - /url: /dreamzone/article/complete-bedroom-renovation
+                - img "Complete bedroom renovation" [ref=e645] [cursor=pointer]
+                - generic [ref=e646] [cursor=pointer]: Complete bedroom renovation
+              - link "New accessories & furniture gives your bedroom a makeover New accessories & furniture gives your bedroom a makeover" [ref=e648] [cursor=pointer]:
+                - /url: /dreamzone/article/new-accessories-furniture-gives-your-bedroom-a-makeover
+                - img "New accessories & furniture gives your bedroom a makeover" [ref=e650] [cursor=pointer]
+                - generic [ref=e651] [cursor=pointer]: New accessories & furniture gives your bedroom a makeover
+              - link "Warm and bright lighting Warm and bright lighting" [ref=e653] [cursor=pointer]:
+                - /url: /dreamzone/article/warm-and-bright-lighting
+                - img "Warm and bright lighting" [ref=e655] [cursor=pointer]
+                - generic [ref=e656] [cursor=pointer]: Warm and bright lighting
+              - link "Create a Scandinavian bedroom Create a Scandinavian bedroom" [ref=e658] [cursor=pointer]:
+                - /url: /dreamzone/article/create-a-scandinavian-bedroom
+                - img "Create a Scandinavian bedroom" [ref=e660] [cursor=pointer]
+                - generic [ref=e661] [cursor=pointer]: Create a Scandinavian bedroom
+              - link "Create a playful kid's bedroom Create a playful kid's bedroom" [ref=e663] [cursor=pointer]:
+                - /url: /dreamzone/article/create-a-playful-kid-s-bedroom
+                - img "Create a playful kid's bedroom" [ref=e665] [cursor=pointer]
+                - generic [ref=e666] [cursor=pointer]: Create a playful kid's bedroom
+              - link "Liv's product pick Liv's product pick" [ref=e668] [cursor=pointer]:
+                - /url: /dreamzone/article/livs-product-pick
+                - img "Liv's product pick" [ref=e670] [cursor=pointer]
+                - generic [ref=e671] [cursor=pointer]: Liv's product pick
+              - link "Heating and curtains Heating and curtains" [ref=e673] [cursor=pointer]:
+                - /url: /dreamzone/article/heating-and-curtains
+                - img "Heating and curtains" [ref=e675] [cursor=pointer]
+                - generic [ref=e676] [cursor=pointer]: Heating and curtains
+      - contentinfo [ref=e678]:
+        - generic [ref=e682]:
+          - generic [ref=e684]:
+            - generic [ref=e686]:
+              - navigation [ref=e687]:
+                - heading "Shopping help" [level=5]
+                - generic [ref=e689]:
+                  - navigation [ref=e690]:
+                    - link "Online shopping help" [ref=e692] [cursor=pointer]:
+                      - /url: /onlineshoppinghelp
+                  - navigation [ref=e693]:
+                    - link "Secure shopping" [ref=e695] [cursor=pointer]:
+                      - /url: /secure-shopping
+                  - navigation [ref=e696]:
+                    - link "Click & Collect" [ref=e698] [cursor=pointer]:
+                      - /url: /collect-in-store
+                  - navigation [ref=e699]:
+                    - link "Payment" [ref=e701] [cursor=pointer]:
+                      - /url: /payment
+                  - navigation [ref=e702]:
+                    - link "Delivery and returns" [ref=e704] [cursor=pointer]:
+                      - /url: /delivery-returns
+                  - navigation [ref=e705]:
+                    - link "Buying from overseas" [ref=e707] [cursor=pointer]:
+                      - /url: /buying-from-overseas
+                  - navigation [ref=e708]:
+                    - link "Terms and conditions" [ref=e710] [cursor=pointer]:
+                      - /url: /terms-conditions
+                  - navigation [ref=e711]:
+                    - link "Scam warnings" [ref=e713] [cursor=pointer]:
+                      - /url: /scam-warnings
+              - navigation [ref=e714]:
+                - heading "Product & services" [level=5]
+                - generic [ref=e716]:
+                  - navigation [ref=e717]:
+                    - link "Catalogue" [ref=e719] [cursor=pointer]:
+                      - /url: /catalogue
+                  - navigation [ref=e720]:
+                    - link "Services" [ref=e722] [cursor=pointer]:
+                      - /url: /services
+                  - navigation [ref=e723]:
+                    - link "Airpoints" [ref=e725] [cursor=pointer]:
+                      - /url: /airpoints
+                  - navigation [ref=e726]:
+                    - link "Farmlands" [ref=e728] [cursor=pointer]:
+                      - /url: /farmlands
+                  - navigation [ref=e729]:
+                    - link "Gift card information" [ref=e731] [cursor=pointer]:
+                      - /url: /gift-card-information
+                  - navigation [ref=e732]:
+                    - link "Store card information" [ref=e734] [cursor=pointer]:
+                      - /url: /store-card-information
+                  - navigation [ref=e735]:
+                    - link "Product recalls" [ref=e737] [cursor=pointer]:
+                      - /url: /product-recalls
+                  - navigation [ref=e738]:
+                    - link "Ratings and reviews" [ref=e740] [cursor=pointer]:
+                      - /url: /ratings-reviews
+                  - navigation [ref=e741]:
+                    - link "Insulation install free assessment" [ref=e743] [cursor=pointer]:
+                      - /url: /insulation-installation?link=insulation-footerlink
+              - navigation [ref=e744]:
+                - heading "Club & accounts" [level=5]
+                - generic [ref=e746]:
+                  - navigation [ref=e747]:
+                    - link "Register" [ref=e749] [cursor=pointer]:
+                      - /url: /register
+                  - navigation [ref=e750]:
+                    - link "Sign in" [ref=e752] [cursor=pointer]:
+                      - /url: /login
+                  - navigation [ref=e753]:
+                    - link "Club" [ref=e755] [cursor=pointer]:
+                      - /url: /club
+                  - navigation [ref=e756]:
+                    - link "Club terms and conditions" [ref=e758] [cursor=pointer]:
+                      - /url: /terms-conditions#M10_Clubs
+                  - navigation [ref=e759]:
+                    - link "Privacy policy" [ref=e761] [cursor=pointer]:
+                      - /url: /privacy
+              - navigation [ref=e762]:
+                - heading "Mitre 10" [level=5]
+                - generic [ref=e764]:
+                  - navigation [ref=e765]:
+                    - link "About Mitre 10" [ref=e767] [cursor=pointer]:
+                      - /url: /about-mitre-10
+                  - navigation [ref=e768]:
+                    - link "Community" [ref=e770] [cursor=pointer]:
+                      - /url: /community
+                  - navigation [ref=e771]:
+                    - link "Contact us" [ref=e773] [cursor=pointer]:
+                      - /url: /contact-us
+                  - navigation [ref=e774]:
+                    - link "Jobs at Mitre 10" [ref=e776] [cursor=pointer]:
+                      - /url: https://careers.mitre10.co.nz/
+                  - navigation [ref=e777]:
+                    - link "News" [ref=e779] [cursor=pointer]:
+                      - /url: /news
+                  - navigation [ref=e780]:
+                    - link "Price guarantee" [ref=e782] [cursor=pointer]:
+                      - /url: /price-guarantee
+                  - navigation [ref=e783]:
+                    - link "Sustainability" [ref=e785] [cursor=pointer]:
+                      - /url: /sustainability
+                  - navigation [ref=e786]:
+                    - link "Your say" [ref=e788] [cursor=pointer]:
+                      - /url: /yoursay
+                  - navigation:
+                    - heading [level=5]
+            - generic [ref=e790]:
+              - paragraph [ref=e791]: Online payment options
+              - list [ref=e792]:
+                - listitem [ref=e793]:
+                  - img "Visa." [ref=e794]
+                - listitem [ref=e795]:
+                  - img "Mastercard." [ref=e796]
+                - listitem [ref=e797]:
+                  - img "Gem Visa." [ref=e798]
+                - listitem [ref=e799]:
+                  - img "M10 Giftcard." [ref=e800]
+                - listitem [ref=e801]:
+                  - img "Afterpay." [ref=e802]
+                - listitem [ref=e803]:
+                  - img "Click to Pay." [ref=e804]
+                - listitem [ref=e805]:
+                  - img "Q card." [ref=e806]
+                - listitem [ref=e807]:
+                  - img "Farmlands Card." [ref=e808]
+              - paragraph [ref=e809]:
+                - text: Additional payment options available at
+                - link "selected stores" [ref=e810] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/payment
+            - generic [ref=e811]:
+              - link "Contact customer support." [ref=e812] [cursor=pointer]:
+                - /url: /contact-us
+                - paragraph [ref=e813] [cursor=pointer]: Contact customer support.
+              - link "To contact your local store 0800 4 6487310 0800 4 MITRE 10" [ref=e814] [cursor=pointer]:
+                - /url: tel:0800 4MITRE 10
+                - paragraph [ref=e815] [cursor=pointer]:
+                  - text: To contact your local store 0800 4 6487310
+                  - generic [ref=e816] [cursor=pointer]: 0800 4 MITRE 10
+          - generic [ref=e818]:
+            - list:
+              - listitem
+              - listitem
+            - list [ref=e820]:
+              - listitem [ref=e821]:
+                - link "Facebook." [ref=e822] [cursor=pointer]:
+                  - /url: https://www.facebook.com/mitre10?fref=ts
+                  - img "Facebook." [ref=e823] [cursor=pointer]
+              - listitem [ref=e824]:
+                - link "YouTube." [ref=e825] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/mitre10nz
+                  - img "YouTube." [ref=e826] [cursor=pointer]
+              - listitem [ref=e827]:
+                - link "Pinterest." [ref=e828] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/mitre10nz/
+                  - img "Pinterest." [ref=e829] [cursor=pointer]
+              - listitem [ref=e830]:
+                - link "Instagram." [ref=e831] [cursor=pointer]:
+                  - /url: http://instagram.com/mitre10nz/
+                  - img "Instagram." [ref=e832] [cursor=pointer]
+              - listitem [ref=e833]
+    - text: 
+  - button "Your say feedback" [ref=e835] [cursor=pointer]:
+    - img "Your say feedback" [ref=e836] [cursor=pointer]
+  - dialog [ref=e837]:
+    - button [ref=e839] [cursor=pointer]:
+      - img [ref=e840] [cursor=pointer]
+```

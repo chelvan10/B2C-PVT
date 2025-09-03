@@ -1,0 +1,3 @@
+✅ Found 33 trade/business links (recommend data-testid="trade-content")
+✅ Found 5 trade CSS classes (recommend data-testid="trade-content")
+✅ Trade page: 38 elements, 3 valid links

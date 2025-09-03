@@ -1,0 +1,12 @@
+✅ Found 100 valid links on https://www.mitre10.co.nz/
+✅ External link: https://www.youtube.com/user/mitre10nz
+✅ Internal link: /
+✅ Internal link: /about-mitre-10
+✅ Internal link: /guides-and-advice/gardening-guides
+✅ Internal link: /delivery-returns
+✅ Found 44 valid links on https://www.mitre10.co.nz/trade
+✅ External link: http://www.m10trade.co.nz/
+✅ Internal link: /trade
+✅ Internal link: /trade/suppliers
+✅ Internal link: /
+✅ Internal link: /trade/industry

@@ -1,0 +1,8 @@
+✅ Special character search "café" handled
+✅ Special character search "naïve" handled
+✅ Special character search "测试" handled
+✅ Special character search "тест" handled
+✅ Special character search "table & chair" handled
+✅ Special character search "table-chair" handled
+✅ Special character search "table/chair" handled
+✅ Special character search "table+chair" handled

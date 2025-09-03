@@ -1,0 +1,316 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - button "Skip to Header" [ref=e6] [cursor=pointer]
+      - button "Skip to Main Content" [ref=e7] [cursor=pointer]
+      - button "Skip to Footer" [ref=e8] [cursor=pointer]
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - button "Menu" [ref=e14] [cursor=pointer]
+        - link "Mitre 10" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "Mitre 10" [ref=e22] [cursor=pointer]
+        - generic [ref=e27]:
+          - generic [ref=e28] [cursor=pointer]:
+            - generic [ref=e29] [cursor=pointer]: Mitre 10 MEGA Rangiora
+            - generic [ref=e30] [cursor=pointer]: Open
+            - generic [ref=e31] [cursor=pointer]: 7:00 am - 6:00 pm
+          - button [expanded] [ref=e33] [cursor=pointer]:
+            - img [ref=e34] [cursor=pointer]
+        - generic [ref=e45]:
+          - textbox "Search for products or inspiration" [ref=e46]
+          - button "search" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49] [cursor=pointer]: search
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic:
+              - generic [ref=e55] [cursor=pointer]: shopping_cart
+              - generic [ref=e56]: "0"
+          - text: 
+    - generic [ref=e57]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - img "deals icon" [ref=e64]
+          - heading "Latest Deals & Offers" [level=4] [ref=e66]:
+            - link "Latest Deals & Offers" [ref=e67] [cursor=pointer]:
+              - /url: /catalogue
+        - generic [ref=e68]:
+          - img "Price guarantee icon" [ref=e70]
+          - heading "Our price guarantee" [level=4] [ref=e72]:
+            - link "Our price guarantee" [ref=e73] [cursor=pointer]:
+              - /url: /price-guarantee
+        - generic [ref=e74]:
+          - img "Scam warning icon" [ref=e76]
+          - heading "Scam warning!" [level=4] [ref=e78]:
+            - link "Scam warning!" [ref=e79] [cursor=pointer]:
+              - /url: /scam-warnings
+        - paragraph [ref=e81]:
+          - text: Product Recall & Safety Notices -
+          - strong [ref=e82]:
+            - link "find out more" [ref=e83] [cursor=pointer]:
+              - /url: /product-recalls
+      - generic:
+        - generic:  ›
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic:
+              - generic:
+                - paragraph
+          - generic [ref=e91]:
+            - link [ref=e94] [cursor=pointer]:
+              - /url: /gifts/fathers-day
+            - link [ref=e97] [cursor=pointer]:
+              - /url: /catalogue
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - link [ref=e104] [cursor=pointer]:
+                - /url: /shop/search?text=%2710%20percent%20off%20Rubs%20and%20Sauces%20CT0326&q=%2710%20percent%20off%20Rubs%20and%20Sauces%20CT0326
+              - generic [ref=e105]:
+                - link [ref=e107] [cursor=pointer]:
+                  - /url: /shop/makita-cordless-drill-driver-combo-kit-2-piece-18-volt-5ah/p/388788
+                - link [ref=e109] [cursor=pointer]:
+                  - /url: /shop/tui-mobile-vegetable-patch/p/343341
+            - generic [ref=e110]:
+              - link [ref=e113] [cursor=pointer]:
+                - /url: /shop/search?text=%2710%20percent%20off%20Blackstone%20CT0326&q=%2710%20percent%20off%20Blackstone%20CT0326
+              - link [ref=e116] [cursor=pointer]:
+                - /url: /shop/fuller-100-piece-screwdriver-set/p/2040801
+            - generic [ref=e117]:
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /shop/number-8-4-shelf-unit-h-1530mm-w-760mm-d-305mm/p/279273
+              - link [ref=e123] [cursor=pointer]:
+                - /url: /shop/black-decker-cordless-drill-kit-18-volt-1-5ah-600rpm/p/348328
+              - link [ref=e126] [cursor=pointer]:
+                - /url: /shop/armour-class-5-bluetooth-call-connect-earmuff-3-7-volt-red/p/382791
+              - link [ref=e129] [cursor=pointer]:
+                - /url: /shop/search?text=%27Makita%20Cordless%20Lawn%20Mower%20and%20Line%20Trimmer%20Kit%20CT0326&q=%27Makita%20Cordless%20Lawn%20Mower%20and%20Line%20Trimmer%20Kit%20CT0326&inStockNationwide=false&inStockSelectedStore=false&sort=RELEVANCY
+          - generic [ref=e130]:
+            - generic:
+              - generic:
+                - paragraph
+        - link "Be in to WIN your dream kids bedroom makeover" [ref=e134] [cursor=pointer]:
+          - /url: /dreambedroom
+          - img "Be in to WIN your dream kids bedroom makeover" [ref=e135] [cursor=pointer]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic:
+              - generic:
+                - paragraph
+          - generic [ref=e138]:
+            - generic:
+              - generic:
+                - paragraph
+          - generic [ref=e139]:
+            - generic:
+              - generic:
+                - paragraph
+          - generic [ref=e143]:
+            - link [ref=e146] [cursor=pointer]:
+              - /url: /shop/search?text=%2750%20percent%20off%20Fuller%20Coloured%20Tool%20Sets%20CL0326&q=%2750%20percent%20off%20Fuller%20Coloured%20Tool%20Sets%20CL0326&inStockNationwide=false&inStockSelectedStore=false&sort=RELEVANCY
+            - generic [ref=e147]:
+              - link [ref=e149] [cursor=pointer]:
+                - /url: /shop/yates-thrive-naturals-seaweed-organic-tonic-1-litre/p/274764
+              - link [ref=e151] [cursor=pointer]:
+                - /url: /shop/active-rapid-dishwashing-tablets-lemon-120-pack/p/394611
+          - generic [ref=e152]:
+            - generic:
+              - generic:
+                - paragraph
+        - generic [ref=e153]:
+          - link "A Mitre 10 Easy As icon with a 'Easy As Guides & Advice We can help you get the job done right' heading." [ref=e156] [cursor=pointer]:
+            - /url: /guides-and-advice
+            - img "A Mitre 10 Easy As icon with a 'Easy As Guides & Advice We can help you get the job done right' heading." [ref=e157] [cursor=pointer]
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - link [ref=e164] [cursor=pointer]:
+                - /url: /guides-and-advice/guide/how-to-reduce-home-heat-loss
+              - generic:
+                - paragraph
+            - generic [ref=e165]:
+              - link [ref=e167] [cursor=pointer]:
+                - /url: /guides-and-advice/guide/how-to-grow-strawberries
+              - generic:
+                - paragraph
+          - generic [ref=e169]:
+            - paragraph [ref=e170]:
+              - strong [ref=e171]:
+                - link "View all guides >" [ref=e173] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/guides-and-advice/gardening-guides
+            - paragraph
+    - contentinfo [ref=e174]:
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - navigation [ref=e182]:
+              - heading "Shopping help" [level=5] [ref=e183]:
+                - text: Shopping help
+                - img [ref=e184]
+              - generic [ref=e187]:
+                - navigation [ref=e188]:
+                  - link "Online shopping help" [ref=e190] [cursor=pointer]:
+                    - /url: /onlineshoppinghelp
+                - navigation [ref=e191]:
+                  - link "Secure shopping" [ref=e193] [cursor=pointer]:
+                    - /url: /secure-shopping
+                - navigation [ref=e194]:
+                  - link "Click & Collect" [ref=e196] [cursor=pointer]:
+                    - /url: /collect-in-store
+                - navigation [ref=e197]:
+                  - link "Payment" [ref=e199] [cursor=pointer]:
+                    - /url: /payment
+                - navigation [ref=e200]:
+                  - link "Delivery and returns" [ref=e202] [cursor=pointer]:
+                    - /url: /delivery-returns
+                - navigation [ref=e203]:
+                  - link "Buying from overseas" [ref=e205] [cursor=pointer]:
+                    - /url: /buying-from-overseas
+                - navigation [ref=e206]:
+                  - link "Terms and conditions" [ref=e208] [cursor=pointer]:
+                    - /url: /terms-conditions
+                - navigation [ref=e209]:
+                  - link "Scam warnings" [ref=e211] [cursor=pointer]:
+                    - /url: /scam-warnings
+            - navigation [ref=e212]:
+              - heading "Product & services" [level=5] [ref=e213]:
+                - text: Product & services
+                - img [ref=e214]
+              - generic [ref=e217]:
+                - navigation [ref=e218]:
+                  - link "Catalogue" [ref=e220] [cursor=pointer]:
+                    - /url: /catalogue
+                - navigation [ref=e221]:
+                  - link "Services" [ref=e223] [cursor=pointer]:
+                    - /url: /services
+                - navigation [ref=e224]:
+                  - link "Airpoints" [ref=e226] [cursor=pointer]:
+                    - /url: /airpoints
+                - navigation [ref=e227]:
+                  - link "Farmlands" [ref=e229] [cursor=pointer]:
+                    - /url: /farmlands
+                - navigation [ref=e230]:
+                  - link "Gift card information" [ref=e232] [cursor=pointer]:
+                    - /url: /gift-card-information
+                - navigation [ref=e233]:
+                  - link "Store card information" [ref=e235] [cursor=pointer]:
+                    - /url: /store-card-information
+                - navigation [ref=e236]:
+                  - link "Product recalls" [ref=e238] [cursor=pointer]:
+                    - /url: /product-recalls
+                - navigation [ref=e239]:
+                  - link "Ratings and reviews" [ref=e241] [cursor=pointer]:
+                    - /url: /ratings-reviews
+                - navigation [ref=e242]:
+                  - link "Insulation install free assessment" [ref=e244] [cursor=pointer]:
+                    - /url: /insulation-installation?link=insulation-footerlink
+            - navigation [ref=e245]:
+              - heading "Club & accounts" [level=5] [ref=e246]:
+                - text: Club & accounts
+                - img [ref=e247]
+              - generic [ref=e250]:
+                - navigation [ref=e251]:
+                  - link "Register" [ref=e253] [cursor=pointer]:
+                    - /url: /register
+                - navigation [ref=e254]:
+                  - link "Sign in" [ref=e256] [cursor=pointer]:
+                    - /url: /login
+                - navigation [ref=e257]:
+                  - link "Club" [ref=e259] [cursor=pointer]:
+                    - /url: /club
+                - navigation [ref=e260]:
+                  - link "Club terms and conditions" [ref=e262] [cursor=pointer]:
+                    - /url: /terms-conditions#M10_Clubs
+                - navigation [ref=e263]:
+                  - link "Privacy policy" [ref=e265] [cursor=pointer]:
+                    - /url: /privacy
+            - navigation [ref=e266]:
+              - heading "Mitre 10" [level=5] [ref=e267]:
+                - text: Mitre 10
+                - img [ref=e268]
+              - generic [ref=e271]:
+                - navigation [ref=e272]:
+                  - link "About Mitre 10" [ref=e274] [cursor=pointer]:
+                    - /url: /about-mitre-10
+                - navigation [ref=e275]:
+                  - link "Community" [ref=e277] [cursor=pointer]:
+                    - /url: /community
+                - navigation [ref=e278]:
+                  - link "Contact us" [ref=e280] [cursor=pointer]:
+                    - /url: /contact-us
+                - navigation [ref=e281]:
+                  - link "Jobs at Mitre 10" [ref=e283] [cursor=pointer]:
+                    - /url: https://careers.mitre10.co.nz/
+                - navigation [ref=e284]:
+                  - link "News" [ref=e286] [cursor=pointer]:
+                    - /url: /news
+                - navigation [ref=e287]:
+                  - link "Price guarantee" [ref=e289] [cursor=pointer]:
+                    - /url: /price-guarantee
+                - navigation [ref=e290]:
+                  - link "Sustainability" [ref=e292] [cursor=pointer]:
+                    - /url: /sustainability
+                - navigation [ref=e293]:
+                  - link "Your say" [ref=e295] [cursor=pointer]:
+                    - /url: /yoursay
+                - navigation:
+                  - heading [level=5]
+          - generic [ref=e297]:
+            - paragraph [ref=e298]: Online payment options
+            - list [ref=e299]:
+              - listitem [ref=e300]:
+                - img "Visa." [ref=e301]
+              - listitem [ref=e302]:
+                - img "Mastercard." [ref=e303]
+              - listitem [ref=e304]:
+                - img "Gem Visa." [ref=e305]
+              - listitem [ref=e306]:
+                - img "M10 Giftcard." [ref=e307]
+              - listitem [ref=e308]:
+                - img "Afterpay." [ref=e309]
+              - listitem [ref=e310]:
+                - img "Click to Pay." [ref=e311]
+              - listitem [ref=e312]:
+                - img "Q card." [ref=e313]
+              - listitem [ref=e314]:
+                - img "Farmlands Card." [ref=e315]
+            - paragraph [ref=e316]:
+              - text: Additional payment options available at
+              - link "selected stores" [ref=e317] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/payment
+          - generic [ref=e318]:
+            - link "Contact customer support." [ref=e319] [cursor=pointer]:
+              - /url: /contact-us
+              - paragraph [ref=e320] [cursor=pointer]: Contact customer support.
+            - link "To contact your local Trade team 0800 4 MITRE 10" [ref=e321] [cursor=pointer]:
+              - /url: tel:0800 4MITRE 10
+              - paragraph [ref=e322] [cursor=pointer]:
+                - text: To contact your local Trade team
+                - generic [ref=e323] [cursor=pointer]: 0800 4 MITRE 10
+        - generic [ref=e325]:
+          - list:
+            - listitem
+            - listitem
+          - list [ref=e327]:
+            - listitem [ref=e328]:
+              - link "Facebook." [ref=e329] [cursor=pointer]:
+                - /url: https://www.facebook.com/mitre10?fref=ts
+                - img "Facebook." [ref=e330] [cursor=pointer]
+            - listitem [ref=e331]:
+              - link "YouTube." [ref=e332] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/mitre10nz
+                - img "YouTube." [ref=e333] [cursor=pointer]
+            - listitem [ref=e334]:
+              - link "Pinterest." [ref=e335] [cursor=pointer]:
+                - /url: https://www.pinterest.com/mitre10nz/
+                - img "Pinterest." [ref=e336] [cursor=pointer]
+            - listitem [ref=e337]:
+              - link "Instagram." [ref=e338] [cursor=pointer]:
+                - /url: http://instagram.com/mitre10nz/
+                - img "Instagram." [ref=e339] [cursor=pointer]
+            - listitem [ref=e340]
+  - text: 
+```

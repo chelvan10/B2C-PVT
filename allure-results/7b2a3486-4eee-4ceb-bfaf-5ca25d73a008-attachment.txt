@@ -1,0 +1,6 @@
+✅ Navigated to content via:  Easy As guides and advice 
+✅ Found 1 YouTube elements: iframe[src*="youtube.com/embed"]
+✅ YouTube video source: https://www.youtube.com/embed/n7Dx4AsbRxI
+✅ YouTube video interaction tested
+✅ Found 20 other media elements: [class*="video"]:not([class*="youtube"])
+✅ Total media: 1 YouTube + 20 other media

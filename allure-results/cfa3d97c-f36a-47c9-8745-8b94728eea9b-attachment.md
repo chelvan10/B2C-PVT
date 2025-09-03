@@ -1,0 +1,563 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - button "Skip to Header" [ref=e6] [cursor=pointer]
+      - button "Skip to Main Content" [ref=e7] [cursor=pointer]
+      - button "Skip to Footer" [ref=e8] [cursor=pointer]
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - button "Menu" [ref=e14] [cursor=pointer]
+        - link "Mitre 10" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "Mitre 10" [ref=e22] [cursor=pointer]
+        - generic [ref=e29]: Loading store
+        - generic [ref=e39]:
+          - textbox "Search for products or inspiration" [ref=e40]: tables
+          - button "search" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43] [cursor=pointer]: search
+        - generic [ref=e47]:
+          - generic [ref=e48] [cursor=pointer]:
+            - generic:
+              - generic [ref=e49] [cursor=pointer]: shopping_cart
+              - generic [ref=e50] [cursor=pointer]: "0"
+          - text: 
+      - text:            
+    - generic [ref=e51]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - img "deals icon" [ref=e58]
+          - heading "Latest Deals & Offers" [level=4] [ref=e60]:
+            - link "Latest Deals & Offers" [ref=e61] [cursor=pointer]:
+              - /url: /catalogue
+        - generic [ref=e62]:
+          - img "Price guarantee icon" [ref=e64]
+          - heading "Our price guarantee" [level=4] [ref=e66]:
+            - link "Our price guarantee" [ref=e67] [cursor=pointer]:
+              - /url: /price-guarantee
+        - generic [ref=e68]:
+          - img "Scam warning icon" [ref=e70]
+          - heading "Scam warning!" [level=4] [ref=e72]:
+            - link "Scam warning!" [ref=e73] [cursor=pointer]:
+              - /url: /scam-warnings
+        - paragraph [ref=e75]:
+          - text: Product Recall & Safety Notices -
+          - strong [ref=e76]:
+            - link "find out more" [ref=e77] [cursor=pointer]:
+              - /url: /product-recalls
+      - list [ref=e80]:
+        - listitem [ref=e81]:
+          - link " Home" [ref=e82] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e83] [cursor=pointer]: 
+            - generic [ref=e84] [cursor=pointer]: Home
+    - main [ref=e85]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - heading "Showing 13 results for ”tables”" [level=1] [ref=e91]
+          - paragraph
+        - generic [ref=e92]:
+          - heading "Products (10) remove" [level=3] [ref=e94] [cursor=pointer]:
+            - generic [ref=e95] [cursor=pointer]: Products
+            - generic [ref=e96] [cursor=pointer]: (10)
+            - generic [ref=e97] [cursor=pointer]: remove
+          - generic [ref=e100]:
+            - text: ( ) () () () () () () () () ()
+            - generic [ref=e101]:
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - combobox "sort sort" [ref=e107] [cursor=pointer]:
+                    - option "Best Match" [selected]
+                    - option "Top Rated"
+                    - option "Top Sellers"
+                    - option "Price (Low to High)"
+                    - option "Price (High to Low)"
+                  - generic [ref=e111]:
+                    - text: Filters
+                    - strong [ref=e112]:
+                      - generic [ref=e113]: (0)
+                - generic [ref=e116]: 10 results found
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - generic [ref=e120]:
+                    - 'link "Folding Table W: 1800mm, D: 750mm, H: 720mm White EXCLUSIVE Number 8 Folding Table W: 1800mm, D: 750mm, H: 720mm White SKU: 269207 $ 80 . 19 each Afterpay logo. 4 interest free payments of $ 20.048 Choose a store for availability"':
+                      - /url: /shop/number-8-folding-table-w-1800mm-d-750mm-h-720mm-white/p/269207
+                      - generic [ref=e122] [cursor=pointer]:
+                        - 'img "Folding Table W: 1800mm, D: 750mm, H: 720mm White" [ref=e126] [cursor=pointer]'
+                        - generic [ref=e129] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e130] [cursor=pointer]:
+                          - generic [ref=e131] [cursor=pointer]:
+                            - generic [ref=e132] [cursor=pointer]: Number 8
+                            - generic [ref=e133] [cursor=pointer]: "Folding Table W: 1800mm, D: 750mm, H: 720mm White"
+                            - generic [ref=e134] [cursor=pointer]:
+                              - generic: "SKU: 269207"
+                          - generic [ref=e137] [cursor=pointer]:
+                            - generic [ref=e138] [cursor=pointer]:
+                              - generic [ref=e140] [cursor=pointer]:
+                                - generic [ref=e141] [cursor=pointer]:
+                                  - generic [ref=e142] [cursor=pointer]: $
+                                  - generic [ref=e143] [cursor=pointer]: "80"
+                                  - generic [ref=e144] [cursor=pointer]:
+                                    - generic [ref=e145] [cursor=pointer]: .
+                                    - text: "19"
+                                - generic [ref=e146] [cursor=pointer]: each
+                              - generic [ref=e147] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e148] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e149] [cursor=pointer]:
+                                  - strong [ref=e150] [cursor=pointer]: $
+                                  - strong [ref=e151] [cursor=pointer]: "20.048"
+                            - generic [ref=e154] [cursor=pointer]:
+                              - button "Choose a store" [ref=e155] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e156]:
+                  - generic [ref=e157]:
+                    - 'link "Trestle Table W: 1200mm, D: 600mm, H: 740mm White EXCLUSIVE Number 8 Trestle Table W: 1200mm, D: 600mm, H: 740mm White SKU: 269210 $ 63 . 69 each Afterpay logo. 4 interest free payments of $ 15.923 Choose a store for availability"':
+                      - /url: /shop/number-8-trestle-table-w-1200mm-d-600mm-h-740mm-white/p/269210
+                      - generic [ref=e159] [cursor=pointer]:
+                        - 'img "Trestle Table W: 1200mm, D: 600mm, H: 740mm White" [ref=e163] [cursor=pointer]'
+                        - generic [ref=e166] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e167] [cursor=pointer]:
+                          - generic [ref=e168] [cursor=pointer]:
+                            - generic [ref=e169] [cursor=pointer]: Number 8
+                            - generic [ref=e170] [cursor=pointer]: "Trestle Table W: 1200mm, D: 600mm, H: 740mm White"
+                            - generic [ref=e171] [cursor=pointer]:
+                              - generic: "SKU: 269210"
+                          - generic [ref=e174] [cursor=pointer]:
+                            - generic [ref=e175] [cursor=pointer]:
+                              - generic [ref=e177] [cursor=pointer]:
+                                - generic [ref=e178] [cursor=pointer]:
+                                  - generic [ref=e179] [cursor=pointer]: $
+                                  - generic [ref=e180] [cursor=pointer]: "63"
+                                  - generic [ref=e181] [cursor=pointer]:
+                                    - generic [ref=e182] [cursor=pointer]: .
+                                    - text: "69"
+                                - generic [ref=e183] [cursor=pointer]: each
+                              - generic [ref=e184] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e185] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e186] [cursor=pointer]:
+                                  - strong [ref=e187] [cursor=pointer]: $
+                                  - strong [ref=e188] [cursor=pointer]: "15.923"
+                            - generic [ref=e191] [cursor=pointer]:
+                              - button "Choose a store" [ref=e192] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e193]:
+                  - generic [ref=e194]:
+                    - 'link "Folding Table W: 880mm, D: 880mm, H: 740mm White EXCLUSIVE Number 8 Folding Table W: 880mm, D: 880mm, H: 740mm White SKU: 269208 $ 69 . 98 each Afterpay logo. 4 interest free payments of $ 17.495 Choose a store for availability"':
+                      - /url: /shop/number-8-folding-table-w-880mm-d-880mm-h-740mm-white/p/269208
+                      - generic [ref=e196] [cursor=pointer]:
+                        - 'img "Folding Table W: 880mm, D: 880mm, H: 740mm White" [ref=e200] [cursor=pointer]'
+                        - generic [ref=e203] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e204] [cursor=pointer]:
+                          - generic [ref=e205] [cursor=pointer]:
+                            - generic [ref=e206] [cursor=pointer]: Number 8
+                            - generic [ref=e207] [cursor=pointer]: "Folding Table W: 880mm, D: 880mm, H: 740mm White"
+                            - generic [ref=e208] [cursor=pointer]:
+                              - generic: "SKU: 269208"
+                          - generic [ref=e211] [cursor=pointer]:
+                            - generic [ref=e212] [cursor=pointer]:
+                              - generic [ref=e214] [cursor=pointer]:
+                                - generic [ref=e215] [cursor=pointer]:
+                                  - generic [ref=e216] [cursor=pointer]: $
+                                  - generic [ref=e217] [cursor=pointer]: "69"
+                                  - generic [ref=e218] [cursor=pointer]:
+                                    - generic [ref=e219] [cursor=pointer]: .
+                                    - text: "98"
+                                - generic [ref=e220] [cursor=pointer]: each
+                              - generic [ref=e221] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e222] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e223] [cursor=pointer]:
+                                  - strong [ref=e224] [cursor=pointer]: $
+                                  - strong [ref=e225] [cursor=pointer]: "17.495"
+                            - generic [ref=e228] [cursor=pointer]:
+                              - button "Choose a store" [ref=e229] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e230]:
+                  - generic [ref=e231]:
+                    - 'link "Adjustable Table W: 650mm, D: 450mm, H: 610-710mm White EXCLUSIVE Number 8 Adjustable Table W: 650mm, D: 450mm, H: 610-710mm White SKU: 269212 $ 41 . 98 each Choose a store for availability"':
+                      - /url: /shop/number-8-adjustable-table-w-650mm-d-450mm-h-610-710mm-white/p/269212
+                      - generic [ref=e233] [cursor=pointer]:
+                        - 'img "Adjustable Table W: 650mm, D: 450mm, H: 610-710mm White" [ref=e237] [cursor=pointer]'
+                        - generic [ref=e240] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e241] [cursor=pointer]:
+                          - generic [ref=e242] [cursor=pointer]:
+                            - generic [ref=e243] [cursor=pointer]: Number 8
+                            - generic [ref=e244] [cursor=pointer]: "Adjustable Table W: 650mm, D: 450mm, H: 610-710mm White"
+                            - generic [ref=e245] [cursor=pointer]:
+                              - generic: "SKU: 269212"
+                          - generic [ref=e248] [cursor=pointer]:
+                            - generic [ref=e251] [cursor=pointer]:
+                              - generic [ref=e252] [cursor=pointer]:
+                                - generic [ref=e253] [cursor=pointer]: $
+                                - generic [ref=e254] [cursor=pointer]: "41"
+                                - generic [ref=e255] [cursor=pointer]:
+                                  - generic [ref=e256] [cursor=pointer]: .
+                                  - text: "98"
+                              - generic [ref=e257] [cursor=pointer]: each
+                            - generic [ref=e260] [cursor=pointer]:
+                              - button "Choose a store" [ref=e261] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e262]:
+                  - generic [ref=e263]:
+                    - 'link "Wood Look Folding Table H:740mm, W: 740mm, L: 1800mm Black EXCLUSIVE Nouveau Wood Look Folding Table H:740mm, W: 740mm, L: 1800mm Black SKU: 307020 $ 69 . 89 each Afterpay logo. 4 interest free payments of $ 17.473 Choose a store for availability"':
+                      - /url: /shop/nouveau-wood-look-folding-table-h-740mm-w-740mm-l-1800mm-black/p/307020
+                      - generic [ref=e265] [cursor=pointer]:
+                        - 'img "Wood Look Folding Table H:740mm, W: 740mm, L: 1800mm Black" [ref=e269] [cursor=pointer]'
+                        - generic [ref=e272] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e273] [cursor=pointer]:
+                          - generic [ref=e274] [cursor=pointer]:
+                            - generic [ref=e275] [cursor=pointer]: Nouveau
+                            - generic [ref=e276] [cursor=pointer]: "Wood Look Folding Table H:740mm, W: 740mm, L: 1800mm Black"
+                            - generic [ref=e277] [cursor=pointer]:
+                              - generic: "SKU: 307020"
+                          - generic [ref=e280] [cursor=pointer]:
+                            - generic [ref=e281] [cursor=pointer]:
+                              - generic [ref=e283] [cursor=pointer]:
+                                - generic [ref=e284] [cursor=pointer]:
+                                  - generic [ref=e285] [cursor=pointer]: $
+                                  - generic [ref=e286] [cursor=pointer]: "69"
+                                  - generic [ref=e287] [cursor=pointer]:
+                                    - generic [ref=e288] [cursor=pointer]: .
+                                    - text: "89"
+                                - generic [ref=e289] [cursor=pointer]: each
+                              - generic [ref=e290] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e291] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e292] [cursor=pointer]:
+                                  - strong [ref=e293] [cursor=pointer]: $
+                                  - strong [ref=e294] [cursor=pointer]: "17.473"
+                            - generic [ref=e297] [cursor=pointer]:
+                              - button "Choose a store" [ref=e298] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e299]:
+                  - generic [ref=e300]:
+                    - 'link "Desk H: 750mm, W: 1200mm, D: 600mm Black EXCLUSIVE Nouveau Desk H: 750mm, W: 1200mm, D: 600mm Black SKU: 386000 $ 99 . 99 each Afterpay logo. 4 interest free payments of $ 24.998 Choose a store for availability"':
+                      - /url: /shop/nouveau-desk-h-750mm-w-1200mm-d-600mm-black/p/386000
+                      - generic [ref=e302] [cursor=pointer]:
+                        - 'img "Desk H: 750mm, W: 1200mm, D: 600mm Black" [ref=e306] [cursor=pointer]'
+                        - generic [ref=e309] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e310] [cursor=pointer]:
+                          - generic [ref=e311] [cursor=pointer]:
+                            - generic [ref=e312] [cursor=pointer]: Nouveau
+                            - generic [ref=e313] [cursor=pointer]: "Desk H: 750mm, W: 1200mm, D: 600mm Black"
+                            - generic [ref=e314] [cursor=pointer]:
+                              - generic: "SKU: 386000"
+                          - generic [ref=e317] [cursor=pointer]:
+                            - generic [ref=e318] [cursor=pointer]:
+                              - generic [ref=e320] [cursor=pointer]:
+                                - generic [ref=e321] [cursor=pointer]:
+                                  - generic [ref=e322] [cursor=pointer]: $
+                                  - generic [ref=e323] [cursor=pointer]: "99"
+                                  - generic [ref=e324] [cursor=pointer]:
+                                    - generic [ref=e325] [cursor=pointer]: .
+                                    - text: "99"
+                                - generic [ref=e326] [cursor=pointer]: each
+                              - generic [ref=e327] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e328] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e329] [cursor=pointer]:
+                                  - strong [ref=e330] [cursor=pointer]: $
+                                  - strong [ref=e331] [cursor=pointer]: "24.998"
+                            - generic [ref=e334] [cursor=pointer]:
+                              - button "Choose a store" [ref=e335] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e336]:
+                  - generic [ref=e337]:
+                    - 'link "Folding Trestle Table W: 2440mm, D: 760mm, H: 720mm White EXCLUSIVE Number 8 Folding Trestle Table W: 2440mm, D: 760mm, H: 720mm White SKU: 269213 $ 149 . each Afterpay logo. 4 interest free payments of $ 37.25 Choose a store for availability"':
+                      - /url: /shop/number-8-folding-trestle-table-w-2440mm-d-760mm-h-720mm-white/p/269213
+                      - generic [ref=e339] [cursor=pointer]:
+                        - 'img "Folding Trestle Table W: 2440mm, D: 760mm, H: 720mm White" [ref=e343] [cursor=pointer]'
+                        - generic [ref=e346] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e347] [cursor=pointer]:
+                          - generic [ref=e348] [cursor=pointer]:
+                            - generic [ref=e349] [cursor=pointer]: Number 8
+                            - generic [ref=e350] [cursor=pointer]: "Folding Trestle Table W: 2440mm, D: 760mm, H: 720mm White"
+                            - generic [ref=e351] [cursor=pointer]:
+                              - generic: "SKU: 269213"
+                          - generic [ref=e354] [cursor=pointer]:
+                            - generic [ref=e355] [cursor=pointer]:
+                              - generic [ref=e357] [cursor=pointer]:
+                                - generic [ref=e358] [cursor=pointer]:
+                                  - generic [ref=e359] [cursor=pointer]: $
+                                  - generic [ref=e360] [cursor=pointer]: "149"
+                                  - generic [ref=e361] [cursor=pointer]: .
+                                - generic [ref=e362] [cursor=pointer]: each
+                              - generic [ref=e363] [cursor=pointer]:
+                                - img "Afterpay logo."
+                                - generic [ref=e364] [cursor=pointer]: 4 interest free payments of
+                                - generic [ref=e365] [cursor=pointer]:
+                                  - strong [ref=e366] [cursor=pointer]: $
+                                  - strong [ref=e367] [cursor=pointer]: "37.25"
+                            - generic [ref=e370] [cursor=pointer]:
+                              - button "Choose a store" [ref=e371] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e372]:
+                  - generic [ref=e373]:
+                    - 'link "Adjustable Trestle Table W: 1200mm, D: 600mm, H: 905mm White Adjustable Trestle Table W: 1200mm, D: 600mm, H: 905mm White SKU: 327863 $ 49 . each Choose a store for availability"':
+                      - /url: /shop/adjustable-trestle-table-w-1200mm-d-600mm-h-905mm-white/p/327863
+                      - generic [ref=e375] [cursor=pointer]:
+                        - 'img "Adjustable Trestle Table W: 1200mm, D: 600mm, H: 905mm White" [ref=e379] [cursor=pointer]'
+                        - generic [ref=e382] [cursor=pointer]:
+                          - generic [ref=e383] [cursor=pointer]:
+                            - generic [ref=e384] [cursor=pointer]: "Adjustable Trestle Table W: 1200mm, D: 600mm, H: 905mm White"
+                            - generic [ref=e385] [cursor=pointer]:
+                              - generic: "SKU: 327863"
+                          - generic [ref=e388] [cursor=pointer]:
+                            - generic [ref=e391] [cursor=pointer]:
+                              - generic [ref=e392] [cursor=pointer]:
+                                - generic [ref=e393] [cursor=pointer]: $
+                                - generic [ref=e394] [cursor=pointer]: "49"
+                                - generic [ref=e395] [cursor=pointer]: .
+                              - generic [ref=e396] [cursor=pointer]: each
+                            - generic [ref=e399] [cursor=pointer]:
+                              - button "Choose a store" [ref=e400] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e401]:
+                  - generic [ref=e402]:
+                    - 'link "Folding Stool H:460mm, W:295mm, L:330mm Black/White/Silver Number 8 Folding Stool H:460mm, W:295mm, L:330mm Black/White/Silver SKU: 336213 $ 21 . 98 each Choose a store for availability"':
+                      - /url: /shop/number-8-folding-stool-h-460mm-w-295mm-l-330mm-black/white/silver/p/336213
+                      - generic [ref=e404] [cursor=pointer]:
+                        - img "Folding Stool H:460mm, W:295mm, L:330mm Black/White/Silver" [ref=e408] [cursor=pointer]
+                        - generic [ref=e411] [cursor=pointer]:
+                          - generic [ref=e412] [cursor=pointer]:
+                            - generic [ref=e413] [cursor=pointer]: Number 8
+                            - generic [ref=e414] [cursor=pointer]: Folding Stool H:460mm, W:295mm, L:330mm Black/White/Silver
+                            - generic [ref=e415] [cursor=pointer]:
+                              - generic: "SKU: 336213"
+                          - generic [ref=e418] [cursor=pointer]:
+                            - generic [ref=e421] [cursor=pointer]:
+                              - generic [ref=e422] [cursor=pointer]:
+                                - generic [ref=e423] [cursor=pointer]: $
+                                - generic [ref=e424] [cursor=pointer]: "21"
+                                - generic [ref=e425] [cursor=pointer]:
+                                  - generic [ref=e426] [cursor=pointer]: .
+                                  - text: "98"
+                              - generic [ref=e427] [cursor=pointer]: each
+                            - generic [ref=e430] [cursor=pointer]:
+                              - button "Choose a store" [ref=e431] [cursor=pointer]
+                              - text: for availability
+                - listitem [ref=e432]:
+                  - generic [ref=e433]:
+                    - 'link "Folding Chair D: 610mm, W: 440mm, H: 800mm White EXCLUSIVE Number 8 Folding Chair D: 610mm, W: 440mm, H: 800mm White SKU: 269209 $ 35 . 99 each Choose a store for availability"':
+                      - /url: /shop/number-8-folding-chair-d-610mm-w-440mm-h-800mm-white/p/269209
+                      - generic [ref=e435] [cursor=pointer]:
+                        - 'img "Folding Chair D: 610mm, W: 440mm, H: 800mm White" [ref=e439] [cursor=pointer]'
+                        - generic [ref=e442] [cursor=pointer]: EXCLUSIVE
+                        - generic [ref=e443] [cursor=pointer]:
+                          - generic [ref=e444] [cursor=pointer]:
+                            - generic [ref=e445] [cursor=pointer]: Number 8
+                            - generic [ref=e446] [cursor=pointer]: "Folding Chair D: 610mm, W: 440mm, H: 800mm White"
+                            - generic [ref=e447] [cursor=pointer]:
+                              - generic: "SKU: 269209"
+                          - generic [ref=e450] [cursor=pointer]:
+                            - generic [ref=e453] [cursor=pointer]:
+                              - generic [ref=e454] [cursor=pointer]:
+                                - generic [ref=e455] [cursor=pointer]: $
+                                - generic [ref=e456] [cursor=pointer]: "35"
+                                - generic [ref=e457] [cursor=pointer]:
+                                  - generic [ref=e458] [cursor=pointer]: .
+                                  - text: "99"
+                              - generic [ref=e459] [cursor=pointer]: each
+                            - generic [ref=e462] [cursor=pointer]:
+                              - button "Choose a store" [ref=e463] [cursor=pointer]
+                              - text: for availability
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - combobox [ref=e469] [cursor=pointer]:
+                    - option "Best Match" [selected]
+                    - option "Top Rated"
+                    - option "Top Sellers"
+                    - option "Price (Low to High)"
+                    - option "Price (High to Low)"
+                  - generic [ref=e473]:
+                    - text: Filters
+                    - strong [ref=e474]:
+                      - generic [ref=e475]: (0)
+                - generic [ref=e478]: 10 results found
+          - heading "Guides & Advice (3) add" [level=3] [ref=e480] [cursor=pointer]:
+            - generic [ref=e481] [cursor=pointer]: Guides & Advice
+            - generic [ref=e482] [cursor=pointer]: (3)
+            - generic [ref=e483] [cursor=pointer]: add
+          - text: ▸  ▸  ▸
+          - heading "Inspiration (0) add" [level=3] [ref=e485] [cursor=pointer]:
+            - generic [ref=e486] [cursor=pointer]: Inspiration
+            - generic [ref=e487] [cursor=pointer]: (0)
+            - generic [ref=e488] [cursor=pointer]: add
+          - heading "Articles (0) add" [level=3] [ref=e490] [cursor=pointer]:
+            - generic [ref=e491] [cursor=pointer]: Articles
+            - generic [ref=e492] [cursor=pointer]: (0)
+            - generic [ref=e493] [cursor=pointer]: add
+    - contentinfo [ref=e494]:
+      - generic [ref=e498]:
+        - generic [ref=e500]:
+          - generic [ref=e501]:
+            - navigation [ref=e502]:
+              - heading "Shopping help" [level=5] [ref=e503]:
+                - text: Shopping help
+                - img [ref=e504]
+              - generic [ref=e507]:
+                - navigation [ref=e508]:
+                  - link "Online shopping help" [ref=e510] [cursor=pointer]:
+                    - /url: /onlineshoppinghelp
+                - navigation [ref=e511]:
+                  - link "Secure shopping" [ref=e513] [cursor=pointer]:
+                    - /url: /secure-shopping
+                - navigation [ref=e514]:
+                  - link "Click & Collect" [ref=e516] [cursor=pointer]:
+                    - /url: /collect-in-store
+                - navigation [ref=e517]:
+                  - link "Payment" [ref=e519] [cursor=pointer]:
+                    - /url: /payment
+                - navigation [ref=e520]:
+                  - link "Delivery and returns" [ref=e522] [cursor=pointer]:
+                    - /url: /delivery-returns
+                - navigation [ref=e523]:
+                  - link "Buying from overseas" [ref=e525] [cursor=pointer]:
+                    - /url: /buying-from-overseas
+                - navigation [ref=e526]:
+                  - link "Terms and conditions" [ref=e528] [cursor=pointer]:
+                    - /url: /terms-conditions
+                - navigation [ref=e529]:
+                  - link "Scam warnings" [ref=e531] [cursor=pointer]:
+                    - /url: /scam-warnings
+            - navigation [ref=e532]:
+              - heading "Product & services" [level=5] [ref=e533]:
+                - text: Product & services
+                - img [ref=e534]
+              - generic [ref=e537]:
+                - navigation [ref=e538]:
+                  - link "Catalogue" [ref=e540] [cursor=pointer]:
+                    - /url: /catalogue
+                - navigation [ref=e541]:
+                  - link "Services" [ref=e543] [cursor=pointer]:
+                    - /url: /services
+                - navigation [ref=e544]:
+                  - link "Airpoints" [ref=e546] [cursor=pointer]:
+                    - /url: /airpoints
+                - navigation [ref=e547]:
+                  - link "Farmlands" [ref=e549] [cursor=pointer]:
+                    - /url: /farmlands
+                - navigation [ref=e550]:
+                  - link "Gift card information" [ref=e552] [cursor=pointer]:
+                    - /url: /gift-card-information
+                - navigation [ref=e553]:
+                  - link "Store card information" [ref=e555] [cursor=pointer]:
+                    - /url: /store-card-information
+                - navigation [ref=e556]:
+                  - link "Product recalls" [ref=e558] [cursor=pointer]:
+                    - /url: /product-recalls
+                - navigation [ref=e559]:
+                  - link "Ratings and reviews" [ref=e561] [cursor=pointer]:
+                    - /url: /ratings-reviews
+                - navigation [ref=e562]:
+                  - link "Insulation install free assessment" [ref=e564] [cursor=pointer]:
+                    - /url: /insulation-installation?link=insulation-footerlink
+            - navigation [ref=e565]:
+              - heading "Club & accounts" [level=5] [ref=e566]:
+                - text: Club & accounts
+                - img [ref=e567]
+              - generic [ref=e570]:
+                - navigation [ref=e571]:
+                  - link "Register" [ref=e573] [cursor=pointer]:
+                    - /url: /register
+                - navigation [ref=e574]:
+                  - link "Sign in" [ref=e576] [cursor=pointer]:
+                    - /url: /login
+                - navigation [ref=e577]:
+                  - link "Club" [ref=e579] [cursor=pointer]:
+                    - /url: /club
+                - navigation [ref=e580]:
+                  - link "Club terms and conditions" [ref=e582] [cursor=pointer]:
+                    - /url: /terms-conditions#M10_Clubs
+                - navigation [ref=e583]:
+                  - link "Privacy policy" [ref=e585] [cursor=pointer]:
+                    - /url: /privacy
+            - navigation [ref=e586]:
+              - heading "Mitre 10" [level=5] [ref=e587]:
+                - text: Mitre 10
+                - img [ref=e588]
+              - generic [ref=e591]:
+                - navigation [ref=e592]:
+                  - link "About Mitre 10" [ref=e594] [cursor=pointer]:
+                    - /url: /about-mitre-10
+                - navigation [ref=e595]:
+                  - link "Community" [ref=e597] [cursor=pointer]:
+                    - /url: /community
+                - navigation [ref=e598]:
+                  - link "Contact us" [ref=e600] [cursor=pointer]:
+                    - /url: /contact-us
+                - navigation [ref=e601]:
+                  - link "Jobs at Mitre 10" [ref=e603] [cursor=pointer]:
+                    - /url: https://careers.mitre10.co.nz/
+                - navigation [ref=e604]:
+                  - link "News" [ref=e606] [cursor=pointer]:
+                    - /url: /news
+                - navigation [ref=e607]:
+                  - link "Price guarantee" [ref=e609] [cursor=pointer]:
+                    - /url: /price-guarantee
+                - navigation [ref=e610]:
+                  - link "Sustainability" [ref=e612] [cursor=pointer]:
+                    - /url: /sustainability
+                - navigation [ref=e613]:
+                  - link "Your say" [ref=e615] [cursor=pointer]:
+                    - /url: /yoursay
+                - navigation:
+                  - heading [level=5]
+          - generic [ref=e617]:
+            - paragraph [ref=e618]: Online payment options
+            - list [ref=e619]:
+              - listitem [ref=e620]:
+                - img "Visa." [ref=e621]
+              - listitem [ref=e622]:
+                - img "Mastercard." [ref=e623]
+              - listitem [ref=e624]:
+                - img "Gem Visa." [ref=e625]
+              - listitem [ref=e626]:
+                - img "M10 Giftcard." [ref=e627]
+              - listitem [ref=e628]:
+                - img "Afterpay." [ref=e629]
+              - listitem [ref=e630]:
+                - img "Click to Pay." [ref=e631]
+              - listitem [ref=e632]:
+                - img "Q card." [ref=e633]
+            - paragraph [ref=e634]:
+              - text: Additional payment options available at
+              - link "selected stores" [ref=e635] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/payment
+          - generic [ref=e636]:
+            - link "Contact customer support." [ref=e637] [cursor=pointer]:
+              - /url: /contact-us
+              - paragraph [ref=e638] [cursor=pointer]: Contact customer support.
+            - link "To contact your local Trade team 0800 4 MITRE 10" [ref=e639] [cursor=pointer]:
+              - /url: tel:0800 4MITRE 10
+              - paragraph [ref=e640] [cursor=pointer]:
+                - text: To contact your local Trade team
+                - generic [ref=e641] [cursor=pointer]: 0800 4 MITRE 10
+        - generic [ref=e643]:
+          - list:
+            - listitem
+            - listitem
+          - list [ref=e645]:
+            - listitem [ref=e646]:
+              - link "Facebook." [ref=e647] [cursor=pointer]:
+                - /url: https://www.facebook.com/mitre10?fref=ts
+                - img "Facebook." [ref=e648] [cursor=pointer]
+            - listitem [ref=e649]:
+              - link "YouTube." [ref=e650] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/mitre10nz
+                - img "YouTube." [ref=e651] [cursor=pointer]
+            - listitem [ref=e652]:
+              - link "Pinterest." [ref=e653] [cursor=pointer]:
+                - /url: https://www.pinterest.com/mitre10nz/
+                - img "Pinterest." [ref=e654] [cursor=pointer]
+            - listitem [ref=e655]:
+              - link "Instagram." [ref=e656] [cursor=pointer]:
+                - /url: http://instagram.com/mitre10nz/
+                - img "Instagram." [ref=e657] [cursor=pointer]
+            - listitem [ref=e658]
+  - text: 
+```

@@ -1,0 +1,8 @@
+✅ Navigation item found: Services
+✅ Navigation item found: Club
+✅ Navigation item found: Inspiration
+✅ Footer contains 39 links
+✅ Footer link: /onlineshoppinghelp
+✅ Footer link: /secure-shopping
+✅ Footer link: /collect-in-store
+✅ Footer validation completed

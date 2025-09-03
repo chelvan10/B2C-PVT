@@ -1,0 +1,8 @@
+⚡ Page load: 2598ms
+✅ Images: 5/5 loaded, 5 accessible
+✅ Found 1 main content landmark(s)
+✅ Found 62 navigation landmark(s)
+✅ Found 1 footer landmark(s)
+✅ Found 168 focusable elements
+✅ Keyboard focus working
+✅ Accessibility validation completed

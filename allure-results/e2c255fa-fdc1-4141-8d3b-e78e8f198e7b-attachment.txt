@@ -1,0 +1,1 @@
+ℹ️ Search API endpoint not available or requires authentication

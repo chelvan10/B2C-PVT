@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "text.skipToContent" [ref=e3] [cursor=pointer]:
+      - /url: "#skip-to-content"
+    - link "text.skipToNavigation" [ref=e4] [cursor=pointer]:
+      - /url: "#skiptonavigation"
+    - banner [ref=e5]:
+      - generic [ref=e9]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: /trade
+        - generic [ref=e14]:
+          - link " Store finder" [ref=e16] [cursor=pointer]:
+            - /url: /store-locator
+            - generic [ref=e17] [cursor=pointer]: 
+            - generic [ref=e18] [cursor=pointer]: Store finder
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Mitre 10 Trade Hub Login" [ref=e21] [cursor=pointer]:
+                - /url: http://www.m10trade.co.nz/
+        - text: 
+    - navigation [ref=e26]:
+      - list [ref=e27]:
+        - text: 
+        - listitem [ref=e28]:
+          - link "About US" [ref=e29] [cursor=pointer]:
+            - /url: /trade/about-us
+        - listitem [ref=e30]:
+          - link "Our Partners" [ref=e31] [cursor=pointer]:
+            - /url: /trade/customers
+          - text:  
+        - listitem [ref=e32]:
+          - link "TRADE DEALS" [ref=e33] [cursor=pointer]:
+            - /url: /trade/deals
+          - text:  
+        - listitem [ref=e34]:
+          - link "SMARTMATE" [ref=e35] [cursor=pointer]:
+            - /url: /trade/smartmate
+        - listitem [ref=e36]:
+          - link "Sustainability On-Site" [ref=e37] [cursor=pointer]:
+            - /url: /trade/sustainability
+    - list [ref=e40]:
+      - listitem [ref=e41]:
+        - link " Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e43] [cursor=pointer]: 
+          - generic [ref=e44] [cursor=pointer]: Home
+      - listitem [ref=e45]:
+        - text: ›
+        - link "Trade" [ref=e46] [cursor=pointer]:
+          - /url: /trade
+    - generic [ref=e47]:
+      - generic [ref=e50]:
+        - link [ref=e53] [cursor=pointer]:
+          - /url: https://new.mitre10trade.co.nz/
+        - link [ref=e56] [cursor=pointer]:
+          - /url: https://www.mitre10trade.co.nz/
+      - generic [ref=e57]:
+        - link "The latest product deals and promotions" [ref=e59] [cursor=pointer]:
+          - /url: /trade/deals
+          - generic [ref=e61] [cursor=pointer]: The latest product deals and promotions
+        - link "About Mitre 10 Trade" [ref=e63] [cursor=pointer]:
+          - /url: https://www.mitre10.co.nz/trade/about-us
+          - generic [ref=e65] [cursor=pointer]: About Mitre 10 Trade
+        - link "Trade news, industry updates and more" [ref=e67] [cursor=pointer]:
+          - /url: https://www.mitre10.co.nz/trade/news
+          - generic [ref=e69] [cursor=pointer]: Trade news, industry updates and more
+        - link "MATES in Construction Feeling overwhelmed? Find out about MATES in Construction" [ref=e71] [cursor=pointer]:
+          - /url: /trade/mates
+          - img "MATES in Construction" [ref=e73] [cursor=pointer]
+          - generic [ref=e74] [cursor=pointer]: Feeling overwhelmed? Find out about MATES in Construction
+        - link "Get more work done in less time with Trade Hub" [ref=e76] [cursor=pointer]:
+          - /url: https://www.mitre10.co.nz/trade/trade-hub
+          - generic [ref=e78] [cursor=pointer]: Get more work done in less time with Trade Hub
+        - link "Mitre 10 Trade Motorsport Mitre 10 Trade Motorsport" [ref=e80] [cursor=pointer]:
+          - /url: https://www.mitre10.co.nz/trade/motorsport
+          - img "Mitre 10 Trade Motorsport" [ref=e82] [cursor=pointer]
+          - generic [ref=e83] [cursor=pointer]: Mitre 10 Trade Motorsport
+        - link "Mitre 10 Trade Featured Suppliers Mitre 10 Trade Featured Suppliers" [ref=e85] [cursor=pointer]:
+          - /url: /trade/suppliers
+          - img "Mitre 10 Trade Featured Suppliers" [ref=e87] [cursor=pointer]
+          - generic [ref=e88] [cursor=pointer]: Mitre 10 Trade Featured Suppliers
+        - link "Smart account solutions for trade, business and commercial customers" [ref=e90] [cursor=pointer]:
+          - /url: https://www.mitre10.co.nz/trade/smartmate
+          - generic [ref=e92] [cursor=pointer]: Smart account solutions for trade, business and commercial customers
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "TR0326-Hayden-Paddon-Promo-Microsite.png" [ref=e96] [cursor=pointer]:
+            - /url: https://www.mitre10.co.nz/trade/giveaway-terms
+            - img "TR0326-Hayden-Paddon-Promo-Microsite.png" [ref=e97] [cursor=pointer]
+          - link "TR0326-2046679-HIKOKI-18V-Framing-Nailer-Kit.png" [ref=e99] [cursor=pointer]:
+            - /url: https://www.mitre10trade.co.nz/tradeSearch?sku=2046679%3Arelevance
+            - img "TR0326-2046679-HIKOKI-18V-Framing-Nailer-Kit.png" [ref=e100] [cursor=pointer]
+          - link "TR0326-346528-MS-Sealant-20PCT-Off-Gorilla-Silicones-and-Sealants.png" [ref=e102] [cursor=pointer]:
+            - /url: https://www.mitre10trade.co.nz/tradeSearch?sku=346528%3Arelevance
+            - img "TR0326-346528-MS-Sealant-20PCT-Off-Gorilla-Silicones-and-Sealants.png" [ref=e103] [cursor=pointer]
+          - link "TR0326-Bostik-Be-in-to-WIN-an-Ultimate-PS5-Bundle.png" [ref=e105] [cursor=pointer]:
+            - /url: https://www.mitre10.co.nz/trade/giveaway-terms#bostik
+            - img "TR0326-Bostik-Be-in-to-WIN-an-Ultimate-PS5-Bundle.png" [ref=e106] [cursor=pointer]
+        - generic [ref=e107]:
+          - link "TR0326-386011-Makita-18V-4-Piece-Kit-5.0Ah.png" [ref=e109] [cursor=pointer]:
+            - /url: https://www.mitre10trade.co.nz/tradeSearch?sku=386011%3Arelevance
+            - img "TR0326-386011-Makita-18V-4-Piece-Kit-5.0Ah.png" [ref=e110] [cursor=pointer]
+          - link "TR0326-2059600-Greens-Contractor-Wheelbarrrow-Golden-72L.png" [ref=e112] [cursor=pointer]:
+            - /url: https://www.mitre10trade.co.nz/tradeSearch?sku=2059600%3Arelevance
+            - img "TR0326-2059600-Greens-Contractor-Wheelbarrrow-Golden-72L.png" [ref=e113] [cursor=pointer]
+          - link "TR0326-464332-20PCT-Off-Select-Aerofast-Tiedown-Ratchets.png" [ref=e115] [cursor=pointer]:
+            - /url: https://www.mitre10trade.co.nz/tradeSearch?sku=464332%3Arelevance
+            - img "TR0326-464332-20PCT-Off-Select-Aerofast-Tiedown-Ratchets.png" [ref=e116] [cursor=pointer]
+          - img "ROK - TMR Mitre 10 750x370.png" [ref=e118]
+        - generic [ref=e120]:
+          - paragraph [ref=e121]
+          - paragraph [ref=e122]:
+            - strong [ref=e126]:
+              - text: Not a Mitre 10 Trade customer? Call us on 0800 M10 TRADE (610 87233) or fill out a
+              - link "Smartmate application" [ref=e127] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/trade/smartmate
+              - text: online.
+          - paragraph [ref=e128]
+      - complementary [ref=e134]
+      - complementary [ref=e136]
+    - contentinfo [ref=e137]:
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - link " 0800 4 MITRE 10 To contact your local trade team":
+              - /url: tel:0800 4MITRE 10
+              - generic: 
+              - generic:
+                - generic: 0800 4 MITRE 10
+                - paragraph: To contact your local trade team
+          - link "Looking to shop online? Talk to us about a SmartMate account" [ref=e145] [cursor=pointer]:
+            - /url: /trade/smartmate
+            - generic [ref=e147] [cursor=pointer]:
+              - generic [ref=e148] [cursor=pointer]: Looking to shop online?
+              - paragraph [ref=e149] [cursor=pointer]: Talk to us about a SmartMate account
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - link "facebook" [ref=e153] [cursor=pointer]:
+              - /url: https://www.facebook.com/mitre10?fref=ts
+              - img "facebook" [ref=e154] [cursor=pointer]
+          - listitem [ref=e155]:
+            - link "youtube" [ref=e156] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/mitre10nz
+              - img "youtube" [ref=e157] [cursor=pointer]
+          - listitem [ref=e158]:
+            - link "pinterest" [ref=e159] [cursor=pointer]:
+              - /url: https://www.pinterest.com/mitre10nz/
+              - img "pinterest" [ref=e160] [cursor=pointer]
+          - listitem [ref=e161]:
+            - link "google plus" [ref=e162] [cursor=pointer]:
+              - /url: https://plus.google.com/+mitre10nz
+              - img "google plus" [ref=e163] [cursor=pointer]
+          - listitem [ref=e164]:
+            - link "instagram" [ref=e165] [cursor=pointer]:
+              - /url: https://instagram.com/mitre10nz/
+              - img "instagram" [ref=e166] [cursor=pointer]
+          - listitem [ref=e167]
+  - status [ref=e169]
+```

@@ -1,0 +1,28 @@
+# ============================================================================
+# 🌐 MULTI-PROJECT TESTING COMMANDS
+# ============================================================================
+
+.PHONY: b2c b2b 1centre all-projects create-project
+
+b2c: ## 🛒 Run B2C tests
+	@echo "🛒 Running B2C tests..."
+	@npx playwright test --project=b2c-desktop-chrome --project=b2c-mobile-android
+
+b2b: ## 🏢 Run B2B Trade tests
+	@echo "🏢 Running B2B Trade tests..."
+	@npx playwright test --project=b2b-desktop-chrome --project=b2b-mobile-android
+
+1centre: ## 🏢 Run 1Centre internal tests
+	@echo "🏢 Running 1Centre tests..."
+	@npx playwright test --project=1centre-desktop-chrome
+
+all-projects: ## 🌐 Run all project tests
+	@echo "🌐 Running all project tests..."
+	@npx playwright test
+
+create-project: ## 🚀 Create new project (usage: make create-project PROJECT=ProjectName)
+	@echo "🚀 Creating project: $(PROJECT)"
+	@node scripts/create-project.js $(PROJECT)
+
+# Include original Makefile
+include Makefile

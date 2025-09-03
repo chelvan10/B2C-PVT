@@ -1,0 +1,2 @@
+✅ Invalid search "xyzabc123nonexistent" handled appropriately
+✅ Invalid search "!@#$%^&*()" handled appropriately

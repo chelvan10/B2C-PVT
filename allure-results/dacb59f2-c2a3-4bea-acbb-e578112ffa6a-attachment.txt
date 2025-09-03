@@ -1,0 +1,3 @@
+✅ Invalid endpoint /api/nonexistent returned status: 404
+✅ Invalid endpoint /api/search?invalid=params returned status: 404
+✅ Invalid endpoint /api/admin/restricted returned status: 404

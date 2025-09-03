@@ -1,0 +1,30 @@
+{
+  "provider": "bitbucket",
+  "repository": "mitre10-automation",
+  "owner": "your-workspace",
+  "roles": {
+    "creator": [
+      "tester1@company.com",
+      "tester2@company.com",
+      "qa-engineer@company.com"
+    ],
+    "reviewer": [
+      "qa-lead@company.com",
+      "automation-architect@company.com"
+    ]
+  },
+  "branchProtection": {
+    "main": true,
+    "requirePR": true,
+    "requireReviews": 1
+  },
+  "templates": {
+    "prTemplate": "## Changes\n<!-- Describe what was added or fixed -->\n\n## Test Plan\n- [ ] Ran locally with make test\n- [ ] Verified screenshots/traces\n- [ ] Checked for broken imports\n\n## Related Tickets\nCloses: #\n\n## Screenshots\n<!-- Add screenshots if applicable -->",
+    "mrTemplate": "## Changes\n<!-- Describe what was added or fixed -->\n\n## Test Plan\n- [ ] Ran locally with make test\n- [ ] Verified screenshots/traces\n- [ ] Checked for broken imports\n\n## Related Tickets\nCloses: #\n\n## Screenshots\n<!-- Add screenshots if applicable -->"
+  },
+  "ci": {
+    "pipeline": "bitbucket-pipelines.yml",
+    "triggers": ["push", "pull-request"],
+    "environments": ["staging", "production"]
+  }
+}

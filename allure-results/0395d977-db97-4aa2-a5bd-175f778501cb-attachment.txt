@@ -1,0 +1,1 @@
+✅ Long search term handled correctly

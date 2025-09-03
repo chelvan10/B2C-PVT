@@ -1,0 +1,19 @@
+# ============================================================================
+# 🔄 GIT INTEGRATOR ADD-ON
+# ============================================================================
+
+vcs-init: ## 🔄 Initialize Git integrator
+	@echo "🔄 Initializing Git Integrator..."
+	@node -e "import('./src/addons/git-integrator/git.integrator.js').then(m => m.VcsIntegrator.init().then(vcs => console.log('✅ Git integrator initialized for:', vcs.getProvider())))"
+
+pr-create: ## 📝 Create Pull Request / Merge Request
+	@echo "📝 Creating PR/MR..."
+	@node -e "import('./src/addons/git-integrator/git.integrator.js').then(m => m.VcsIntegrator.init().then(vcs => vcs.submitPullRequest()))"
+
+branch-create: ## 🌿 Create feature branch (usage: make branch-create NAME=feature-name)
+	@echo "🌿 Creating feature branch: $(NAME)"
+	@node -e "import('./src/addons/git-integrator/git.integrator.js').then(m => m.VcsIntegrator.init().then(vcs => vcs.createFeatureBranch('$(NAME)')))"
+
+commit: ## 💾 Commit changes (usage: make commit MSG='commit message')
+	@echo "💾 Committing changes..."
+	@node -e "import('./src/addons/git-integrator/git.integrator.js').then(m => m.VcsIntegrator.init().then(vcs => vcs.commitChanges('$(MSG)')))"

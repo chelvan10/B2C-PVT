@@ -1,0 +1,20 @@
+{
+  "name": "b2c-pvt-demo",
+  "version": "1.0.0",
+  "description": "B2C PVT Demo Test Suite",
+  "scripts": {
+    "test": "node scripts/test-runner.js",
+    "test:single": "node scripts/test-runner.js",
+    "test:smoke": "node scripts/test-runner.js --grep @smoke",
+    "test:regression": "node scripts/test-runner.js --grep @regression",
+    "test:all": "node scripts/test-runner.js",
+    "test:desktop": "node scripts/test-runner.js --project=b2c-desktop-chrome",
+    "test:mobile": "node scripts/test-runner.js --project=b2c-mobile-android",
+    "dashboard": "node scripts/production-dashboard.js",
+    "workflow": "node utils/post-test-workflow.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-playwright": "^2.10.0"
+  }
+}

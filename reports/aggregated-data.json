@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-08-31T10:49:45.136Z",
+  "summary": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "duration": 0
+  },
+  "coverageMatrix": {},
+  "testDetails": [],
+  "features": [],
+  "conditions": []
+}

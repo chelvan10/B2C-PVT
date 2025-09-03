@@ -1,0 +1,5 @@
+✅ Found 4 service links
+✅ Valid service link: /services
+✅ Valid service link: /services
+✅ Valid service link: /services#InStoreServices
+✅ Services page validated

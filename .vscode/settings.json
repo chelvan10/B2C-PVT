@@ -1,0 +1,14 @@
+{
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": true,
+  "playwright.enableCodeLens": true,
+  "files.associations": {
+    "*.spec.ts": "typescript"
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "testing.automaticallyOpenPeekView": "never",
+  "testing.openTesting": "neverOpen"
+}

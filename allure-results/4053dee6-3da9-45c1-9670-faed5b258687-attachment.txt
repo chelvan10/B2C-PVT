@@ -1,0 +1,3 @@
+✅ Navigated via:  Easy As guides and advice  (recommend data-testid="nav-guides")
+✅ Found 1 YouTube embeds
+✅ Media summary: 1 total, 0 accessible (recommend data-testid="youtube-videos")

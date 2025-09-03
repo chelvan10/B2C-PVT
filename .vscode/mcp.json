@@ -1,0 +1,31 @@
+{
+	"servers": {
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest",
+				"--isolated",
+
+			]
+		},
+		"chrome-extensions": {
+			"command": "npx",
+			"args": [
+				"--extension",
+			]
+		},
+		"github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/",
+		},
+		"atlassian": {
+			"type": "http",
+			"url": "https://mcp.atlassian.com/v1/sse"
+		},
+		"figma": {
+			"type": "http",
+			"url": "http://127.0.0.1:3845/sse"
+		}
+	},
+	"inputs": []
+}

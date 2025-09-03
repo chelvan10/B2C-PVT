@@ -1,0 +1,404 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - button "Skip to Header" [ref=e6] [cursor=pointer]
+        - button "Skip to Main Content" [ref=e7] [cursor=pointer]
+        - button "Skip to Footer" [ref=e8] [cursor=pointer]
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e15]:
+            - img
+            - generic [ref=e16] [cursor=pointer]:
+              - generic [ref=e17] [cursor=pointer]: Mitre 10 MEGA Rangiora
+              - generic [ref=e18] [cursor=pointer]: Open
+              - generic [ref=e19] [cursor=pointer]: 7:00 am - 6:00 pm
+            - button "Change store" [expanded] [ref=e21] [cursor=pointer]:
+              - generic [ref=e22] [cursor=pointer]: Change store
+              - img [ref=e23] [cursor=pointer]
+          - generic [ref=e26]:
+            - link "Wishlist" [ref=e29] [cursor=pointer]:
+              - /url: /wishlist
+            - link "Store Finder" [ref=e32] [cursor=pointer]:
+              - /url: /store-locator
+            - link "Gift Cards" [ref=e35] [cursor=pointer]:
+              - /url: /gift-cards/c/RF8888
+          - link "Mitre 10" [ref=e39] [cursor=pointer]:
+            - /url: /
+            - img "Mitre 10" [ref=e41] [cursor=pointer]
+          - generic [ref=e50]:
+            - textbox "Search for products, departments or inspiration" [ref=e51]
+            - button "search" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54] [cursor=pointer]: search
+          - generic [ref=e55]:
+            - generic:
+              - list [ref=e57]:
+                - listitem [ref=e58] [cursor=pointer]:
+                  - link "Log in" [ref=e59] [cursor=pointer]:
+                    - /url: /login
+                - listitem [ref=e60] [cursor=pointer]:
+                  - generic [ref=e61] [cursor=pointer]: Register
+              - list
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic:
+                - generic [ref=e67] [cursor=pointer]: shopping_cart
+                - generic [ref=e68]: "0"
+            - text: 
+          - generic [ref=e71]:
+            - navigation [ref=e72] [cursor=pointer]:
+              - generic [ref=e73] [cursor=pointer]: Departments
+            - navigation [ref=e74] [cursor=pointer]:
+              - generic [ref=e75] [cursor=pointer]: Easy As Guides
+            - navigation [ref=e76] [cursor=pointer]:
+              - link "Inspiration" [ref=e78] [cursor=pointer]:
+                - /url: /dreamzone
+            - navigation [ref=e79] [cursor=pointer]:
+              - link "Club" [ref=e81] [cursor=pointer]:
+                - /url: /club
+            - navigation [ref=e82] [cursor=pointer]:
+              - link "Services" [ref=e84] [cursor=pointer]:
+                - /url: /services
+            - navigation [ref=e85] [cursor=pointer]:
+              - link "Trade" [ref=e87] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/trade
+      - generic [ref=e88]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img "deals icon" [ref=e95]
+            - generic [ref=e96]:
+              - heading "Latest Deals & Offers" [level=4] [ref=e97]:
+                - link "Latest Deals & Offers" [ref=e98] [cursor=pointer]:
+                  - /url: /catalogue
+              - paragraph [ref=e99]: Shop all the latest deals in one place
+          - generic [ref=e100]:
+            - img "Price guarantee icon" [ref=e102]
+            - generic [ref=e103]:
+              - heading "Our price guarantee" [level=4] [ref=e104]:
+                - link "Our price guarantee" [ref=e105] [cursor=pointer]:
+                  - /url: /price-guarantee
+              - paragraph [ref=e106]: 15% low price guarantee*
+          - generic [ref=e107]:
+            - img "Scam warning icon" [ref=e109]
+            - generic [ref=e110]:
+              - heading "Scam warning!" [level=4] [ref=e111]:
+                - link "Scam warning!" [ref=e112] [cursor=pointer]:
+                  - /url: /scam-warnings
+              - paragraph [ref=e113]: Keep your information safe
+          - generic [ref=e114]:
+            - img "Recalls icon" [ref=e116]
+            - generic [ref=e117]:
+              - heading "Product recalls" [level=4] [ref=e118]:
+                - link "Product recalls" [ref=e119] [cursor=pointer]:
+                  - /url: /product-recalls
+              - paragraph [ref=e120]: Safety notices and information
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - link " Home" [ref=e125] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e126] [cursor=pointer]: 
+              - generic [ref=e127] [cursor=pointer]: Home
+          - listitem [ref=e128]:
+            - text: ›
+            - link "Services" [ref=e129] [cursor=pointer]:
+              - /url: /services
+      - main [ref=e130]:
+        - generic [ref=e132]:
+          - generic [ref=e134]:
+            - heading "Services to make your shopping experience easier" [level=1] [ref=e135]:
+              - generic [ref=e136]: Services to make your shopping experience easier
+            - paragraph [ref=e137]:
+              - generic [ref=e138]: Take advantage of our range of
+              - strong [ref=e139]:
+                - link "in-store" [ref=e140] [cursor=pointer]:
+                  - /url: /services#InStoreServices
+              - generic [ref=e141]: and
+              - strong [ref=e142]:
+                - link "in-home" [ref=e143] [cursor=pointer]:
+                  - /url: /services#InHomeServices
+              - generic [ref=e144]: services available at selected Mitre 10 and Mitre 10 MEGA stores. Simply pop into your local store and ask our team at the customer service desk for more information and pricing options.
+          - heading "In-store services" [level=2] [ref=e147]:
+            - generic [ref=e149] [cursor=pointer]: In-store services
+          - generic [ref=e151]:
+            - generic [ref=e157] [cursor=pointer]:
+              - generic [ref=e158] [cursor=pointer]:
+                - heading "Key Cutting" [level=2] [ref=e159] [cursor=pointer]
+                - paragraph [ref=e160] [cursor=pointer]: Drop your keys off at the key cutting service desk and browse the store while we take care of it for you.
+              - button "Find out more" [ref=e162] [cursor=pointer]
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e169] [cursor=pointer]:
+                - heading "Gas Swap" [level=2] [ref=e170] [cursor=pointer]
+                - paragraph [ref=e171] [cursor=pointer]: Simply drop off your empty 9kg gas bottle and collect a new one in-store.
+              - button "Find out more" [ref=e173] [cursor=pointer]
+            - generic [ref=e179] [cursor=pointer]:
+              - generic [ref=e180] [cursor=pointer]:
+                - heading "Pool and Water Testing" [level=2] [ref=e181] [cursor=pointer]
+                - paragraph [ref=e182] [cursor=pointer]: Simply bring a sample of your pool water in-store and get it tested.
+              - button "Find out more" [ref=e184] [cursor=pointer]
+            - generic [ref=e190] [cursor=pointer]:
+              - generic [ref=e191] [cursor=pointer]:
+                - heading "Rug Doctor" [level=2] [ref=e192] [cursor=pointer]
+                - paragraph [ref=e193] [cursor=pointer]: Hire a rug doctor for 4, 8 or 24 hour periods. Talk to our team members about what you need and they'll help you find the best cleaning solutions to get the job done.
+              - button "Find out more" [ref=e195] [cursor=pointer]
+            - generic [ref=e201] [cursor=pointer]:
+              - generic [ref=e202] [cursor=pointer]:
+                - heading "Trailer Hire" [level=2] [ref=e203] [cursor=pointer]
+                - paragraph [ref=e204] [cursor=pointer]: When the back of the ute or wagon just won't cut it, hire one of our courtesy trailers to get those big purchases home. The first two hours are free and the in-store booking process is super simple.
+              - button "Find out more" [ref=e206] [cursor=pointer]
+            - generic [ref=e212] [cursor=pointer]:
+              - generic [ref=e213] [cursor=pointer]:
+                - heading "Timber Cutting" [level=2] [ref=e214] [cursor=pointer]
+                - paragraph [ref=e215] [cursor=pointer]: Get your timber cut to the right size at the time of purchase. Simply choose the timber you need and ask a team member about cutting services.
+              - button "Find out more" [ref=e217] [cursor=pointer]
+            - generic [ref=e223] [cursor=pointer]:
+              - generic [ref=e224] [cursor=pointer]:
+                - heading "SodaStream" [level=2] [ref=e225] [cursor=pointer]
+                - paragraph [ref=e226] [cursor=pointer]: Mitre 10 is part of the national SodaStream exchange program. Contact your local store for details and availability.
+              - button "Find out more" [ref=e228] [cursor=pointer]
+            - generic [ref=e234] [cursor=pointer]:
+              - generic [ref=e235] [cursor=pointer]:
+                - heading "Paint Colour Matching & Tinting" [level=2] [ref=e236] [cursor=pointer]
+                - paragraph [ref=e237] [cursor=pointer]: Not sure what that colour is on your favourite cushion or the shade of the old roll of wallpaper in your garage? Just bring in a sample to selected Mitre 10 and Mitre 10 MEGA stores and we'll find the perfect match for you. Charges may apply, see in-store for details. Only available with Accent and Wattyl paint.
+              - button "Find out more" [ref=e239] [cursor=pointer]
+            - generic [ref=e245] [cursor=pointer]:
+              - generic [ref=e246] [cursor=pointer]:
+                - heading "Kitchen Designer" [level=2] [ref=e247] [cursor=pointer]
+                - paragraph [ref=e248] [cursor=pointer]: Let us help you design your dream kitchen. Book a free online or in-store consultation with one of our kitchen consultants who will give you expert advice, design a 3D render of your kitchen and assist with your order.
+              - button "Book now" [ref=e250] [cursor=pointer]
+            - generic [ref=e256] [cursor=pointer]:
+              - generic [ref=e257] [cursor=pointer]:
+                - heading "Cityhop Van Rental" [level=2] [ref=e258] [cursor=pointer]
+                - paragraph [ref=e259] [cursor=pointer]: Drive your goods home! Rent a van on site by the hour. Available at selected Mitre 10 and Mitre 10 MEGA Stores.
+              - button "Book now" [ref=e261] [cursor=pointer]
+            - generic [ref=e267] [cursor=pointer]:
+              - generic [ref=e268] [cursor=pointer]:
+                - heading "Delivery" [level=2] [ref=e269] [cursor=pointer]
+                - paragraph [ref=e270] [cursor=pointer]: If you have a tricky or urgent delivery, simply speak to one of our team members and we'll do our best to get it sorted out for you. We can arrange same-day and next-day deliveries and help with details around fees and availability.
+              - button "Find out more" [ref=e272] [cursor=pointer]
+            - generic [ref=e278] [cursor=pointer]:
+              - generic [ref=e279] [cursor=pointer]:
+                - heading "Pot Recycle" [level=2] [ref=e280] [cursor=pointer]
+                - paragraph [ref=e281] [cursor=pointer]: Simply bring your clean seedling and plant pots made from plastic ID 5 into your local Mitre 10 store. Our recycling partners will shred them and remould them into brand new pots.
+              - button "Find out more" [ref=e283] [cursor=pointer]
+            - generic [ref=e289] [cursor=pointer]:
+              - generic [ref=e290] [cursor=pointer]:
+                - heading "Recycle your old lightbulbs at Mitre 10" [level=2] [ref=e291] [cursor=pointer]
+                - paragraph [ref=e292] [cursor=pointer]: Mitre 10 is committed to making a real and sustainable impact on the environment and the communities we are part of.
+              - button "Find out more" [ref=e294] [cursor=pointer]
+          - generic [ref=e296]:
+            - heading "In-home services" [level=2] [ref=e297]:
+              - generic [ref=e299]: In-home services
+            - paragraph [ref=e300]
+          - generic [ref=e302]:
+            - generic [ref=e308] [cursor=pointer]:
+              - generic [ref=e309] [cursor=pointer]:
+                - heading "Heat Pump Installation" [level=2] [ref=e310] [cursor=pointer]
+                - paragraph [ref=e311] [cursor=pointer]: Maintain the perfect temperature at your place with a Hitachi Heat Pump. Selected Mitre 10 MEGA stores are now offering installation services to make it easier for you to heat your home in winter and keep it cool in summer.
+              - button "Find out more" [ref=e313] [cursor=pointer]
+            - generic [ref=e319] [cursor=pointer]:
+              - generic [ref=e320] [cursor=pointer]:
+                - heading "Insulation and Installation Assessment" [level=2] [ref=e321] [cursor=pointer]
+                - paragraph [ref=e322] [cursor=pointer]: Insulation keeps your home cool in summer and warm in winter. Get your home sorted with our expert installation service and leading insulation brands.
+              - button "Book an assessment" [ref=e324] [cursor=pointer]
+            - generic [ref=e330] [cursor=pointer]:
+              - generic [ref=e331] [cursor=pointer]:
+                - heading "AA Home Book a Job" [level=2] [ref=e332] [cursor=pointer]
+                - paragraph [ref=e333] [cursor=pointer]: Need a hand with installation? Booking a trusted, hassle-free home installation for your Auckland Mitre 10 purchases has never been easier.
+              - button "Find out more" [ref=e335] [cursor=pointer]
+            - generic [ref=e341] [cursor=pointer]:
+              - generic [ref=e342] [cursor=pointer]:
+                - heading "Shed Assembly" [level=2] [ref=e343] [cursor=pointer]
+                - paragraph [ref=e344] [cursor=pointer]: We’ve partnered with Kitset Assembly Services, let them assemble your shed for you. Get an instant quote and make a booking online now. Available at selected stores.
+              - button "Get a quote" [ref=e346] [cursor=pointer]
+            - generic [ref=e352] [cursor=pointer]:
+              - generic [ref=e353] [cursor=pointer]:
+                - heading "Outdoor Furniture Assembly" [level=2] [ref=e354] [cursor=pointer]
+                - paragraph [ref=e355] [cursor=pointer]: We’ve partnered with Kitset Assembly Services, let them assemble your Outdoor Furniture. Get an instant quote and make a booking online now. Available at selected stores.
+              - button "Get a quote" [ref=e357] [cursor=pointer]
+            - generic [ref=e363] [cursor=pointer]:
+              - generic [ref=e364] [cursor=pointer]:
+                - heading "BBQ Assembly" [level=2] [ref=e365] [cursor=pointer]
+                - paragraph [ref=e366] [cursor=pointer]: We’ve partnered with Kitset Assembly Services, let them assemble your BBQ. Get an instant quote and make a booking online now. Available at selected stores.
+              - button "Get a quote" [ref=e368] [cursor=pointer]
+            - generic [ref=e374] [cursor=pointer]:
+              - generic [ref=e375] [cursor=pointer]:
+                - heading "Storage Assembly" [level=2] [ref=e376] [cursor=pointer]
+                - paragraph [ref=e377] [cursor=pointer]: We’ve partnered with Kitset Assembly Services, let them assemble all your storage solutions. Get an instant quote and make a booking online now. Available at selected stores.
+              - button "Get a quote" [ref=e379] [cursor=pointer]
+            - generic [ref=e385] [cursor=pointer]:
+              - generic [ref=e386] [cursor=pointer]:
+                - heading "Clothesline Assembly" [level=2] [ref=e387] [cursor=pointer]
+                - paragraph [ref=e388] [cursor=pointer]: We’ve partnered with Kitset Assembly Services, let them install your clothesline. Get an instant quote and make a booking online now. Available at selected stores.
+              - button "Get a quote" [ref=e390] [cursor=pointer]
+      - contentinfo [ref=e391]:
+        - generic [ref=e395]:
+          - generic [ref=e397]:
+            - generic [ref=e399]:
+              - navigation [ref=e400]:
+                - heading "Shopping help" [level=5]
+                - generic [ref=e402]:
+                  - navigation [ref=e403]:
+                    - link "Online shopping help" [ref=e405] [cursor=pointer]:
+                      - /url: /onlineshoppinghelp
+                  - navigation [ref=e406]:
+                    - link "Secure shopping" [ref=e408] [cursor=pointer]:
+                      - /url: /secure-shopping
+                  - navigation [ref=e409]:
+                    - link "Click & Collect" [ref=e411] [cursor=pointer]:
+                      - /url: /collect-in-store
+                  - navigation [ref=e412]:
+                    - link "Payment" [ref=e414] [cursor=pointer]:
+                      - /url: /payment
+                  - navigation [ref=e415]:
+                    - link "Delivery and returns" [ref=e417] [cursor=pointer]:
+                      - /url: /delivery-returns
+                  - navigation [ref=e418]:
+                    - link "Buying from overseas" [ref=e420] [cursor=pointer]:
+                      - /url: /buying-from-overseas
+                  - navigation [ref=e421]:
+                    - link "Terms and conditions" [ref=e423] [cursor=pointer]:
+                      - /url: /terms-conditions
+                  - navigation [ref=e424]:
+                    - link "Scam warnings" [ref=e426] [cursor=pointer]:
+                      - /url: /scam-warnings
+              - navigation [ref=e427]:
+                - heading "Product & services" [level=5]
+                - generic [ref=e429]:
+                  - navigation [ref=e430]:
+                    - link "Catalogue" [ref=e432] [cursor=pointer]:
+                      - /url: /catalogue
+                  - navigation [ref=e433]:
+                    - link "Services" [ref=e435] [cursor=pointer]:
+                      - /url: /services
+                  - navigation [ref=e436]:
+                    - link "Airpoints" [ref=e438] [cursor=pointer]:
+                      - /url: /airpoints
+                  - navigation [ref=e439]:
+                    - link "Farmlands" [ref=e441] [cursor=pointer]:
+                      - /url: /farmlands
+                  - navigation [ref=e442]:
+                    - link "Gift card information" [ref=e444] [cursor=pointer]:
+                      - /url: /gift-card-information
+                  - navigation [ref=e445]:
+                    - link "Store card information" [ref=e447] [cursor=pointer]:
+                      - /url: /store-card-information
+                  - navigation [ref=e448]:
+                    - link "Product recalls" [ref=e450] [cursor=pointer]:
+                      - /url: /product-recalls
+                  - navigation [ref=e451]:
+                    - link "Ratings and reviews" [ref=e453] [cursor=pointer]:
+                      - /url: /ratings-reviews
+                  - navigation [ref=e454]:
+                    - link "Insulation install free assessment" [ref=e456] [cursor=pointer]:
+                      - /url: /insulation-installation?link=insulation-footerlink
+              - navigation [ref=e457]:
+                - heading "Club & accounts" [level=5]
+                - generic [ref=e459]:
+                  - navigation [ref=e460]:
+                    - link "Register" [ref=e462] [cursor=pointer]:
+                      - /url: /register
+                  - navigation [ref=e463]:
+                    - link "Sign in" [ref=e465] [cursor=pointer]:
+                      - /url: /login
+                  - navigation [ref=e466]:
+                    - link "Club" [ref=e468] [cursor=pointer]:
+                      - /url: /club
+                  - navigation [ref=e469]:
+                    - link "Club terms and conditions" [ref=e471] [cursor=pointer]:
+                      - /url: /terms-conditions#M10_Clubs
+                  - navigation [ref=e472]:
+                    - link "Privacy policy" [ref=e474] [cursor=pointer]:
+                      - /url: /privacy
+              - navigation [ref=e475]:
+                - heading "Mitre 10" [level=5]
+                - generic [ref=e477]:
+                  - navigation [ref=e478]:
+                    - link "About Mitre 10" [ref=e480] [cursor=pointer]:
+                      - /url: /about-mitre-10
+                  - navigation [ref=e481]:
+                    - link "Community" [ref=e483] [cursor=pointer]:
+                      - /url: /community
+                  - navigation [ref=e484]:
+                    - link "Contact us" [ref=e486] [cursor=pointer]:
+                      - /url: /contact-us
+                  - navigation [ref=e487]:
+                    - link "Jobs at Mitre 10" [ref=e489] [cursor=pointer]:
+                      - /url: https://careers.mitre10.co.nz/
+                  - navigation [ref=e490]:
+                    - link "News" [ref=e492] [cursor=pointer]:
+                      - /url: /news
+                  - navigation [ref=e493]:
+                    - link "Price guarantee" [ref=e495] [cursor=pointer]:
+                      - /url: /price-guarantee
+                  - navigation [ref=e496]:
+                    - link "Sustainability" [ref=e498] [cursor=pointer]:
+                      - /url: /sustainability
+                  - navigation [ref=e499]:
+                    - link "Your say" [ref=e501] [cursor=pointer]:
+                      - /url: /yoursay
+                  - navigation:
+                    - heading [level=5]
+            - generic [ref=e503]:
+              - paragraph [ref=e504]: Online payment options
+              - list [ref=e505]:
+                - listitem [ref=e506]:
+                  - img "Visa." [ref=e507]
+                - listitem [ref=e508]:
+                  - img "Mastercard." [ref=e509]
+                - listitem [ref=e510]:
+                  - img "Gem Visa." [ref=e511]
+                - listitem [ref=e512]:
+                  - img "M10 Giftcard." [ref=e513]
+                - listitem [ref=e514]:
+                  - img "Afterpay." [ref=e515]
+                - listitem [ref=e516]:
+                  - img "Click to Pay." [ref=e517]
+                - listitem [ref=e518]:
+                  - img "Q card." [ref=e519]
+                - listitem [ref=e520]:
+                  - img "Farmlands Card." [ref=e521]
+              - paragraph [ref=e522]:
+                - text: Additional payment options available at
+                - link "selected stores" [ref=e523] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/payment
+            - generic [ref=e524]:
+              - link "Contact customer support." [ref=e525] [cursor=pointer]:
+                - /url: /contact-us
+                - paragraph [ref=e526] [cursor=pointer]: Contact customer support.
+              - link "To contact your local store 0800 4 6487310 0800 4 MITRE 10" [ref=e527] [cursor=pointer]:
+                - /url: tel:0800 4MITRE 10
+                - paragraph [ref=e528] [cursor=pointer]:
+                  - text: To contact your local store 0800 4 6487310
+                  - generic [ref=e529] [cursor=pointer]: 0800 4 MITRE 10
+          - generic [ref=e531]:
+            - list:
+              - listitem
+              - listitem
+            - list [ref=e533]:
+              - listitem [ref=e534]:
+                - link "Facebook." [ref=e535] [cursor=pointer]:
+                  - /url: https://www.facebook.com/mitre10?fref=ts
+                  - img "Facebook." [ref=e536] [cursor=pointer]
+              - listitem [ref=e537]:
+                - link "YouTube." [ref=e538] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/mitre10nz
+                  - img "YouTube." [ref=e539] [cursor=pointer]
+              - listitem [ref=e540]:
+                - link "Pinterest." [ref=e541] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/mitre10nz/
+                  - img "Pinterest." [ref=e542] [cursor=pointer]
+              - listitem [ref=e543]:
+                - link "Instagram." [ref=e544] [cursor=pointer]:
+                  - /url: http://instagram.com/mitre10nz/
+                  - img "Instagram." [ref=e545] [cursor=pointer]
+              - listitem [ref=e546]
+    - text: 
+  - button "Your say feedback" [ref=e548] [cursor=pointer]:
+    - img "Your say feedback" [ref=e549] [cursor=pointer]
+  - dialog [ref=e550]:
+    - button [ref=e552] [cursor=pointer]:
+      - img [ref=e553] [cursor=pointer]
+```

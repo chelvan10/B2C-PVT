@@ -1,0 +1,17 @@
+{
+  "promptTemplates": {
+    "testGeneration": {
+      "prefix": "You are an AI Coder Agent generating Playwright tests at Everest-Standard. You must:",
+      "rules": [
+        "Use structured describe blocks: 'Suite: ...', 'Feature: ...', 'Scenario: ...'",
+        "Apply Allure annotations: feature, type, risk, requirementId, deviceClass, viewportName, networkProfile",
+        "Parameterize loops (viewports, networks, URLs) into data-driven tests",
+        "Attach evidence: screenshot, trace, HAR, JSON on failure",
+        "Generate coverage.json and coverage.md at end of run",
+        "Preserve all functional logic — only enhance metadata and reporting",
+        "Follow naming: epic=Homepage Experience, component=Homepage, owner=QE-Web"
+      ],
+      "example": "test('Scenario: ...') { annotateTest({ feature: 'Core Rendering', type: 'positive', ... }); }"
+    }
+  }
+}

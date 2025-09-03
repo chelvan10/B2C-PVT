@@ -1,0 +1,8 @@
+✅ Found 111 valid links on https://www.mitre10.co.nz
+✅ External link: https://www.mitre10.co.nz/trade
+✅ Internal link: /shop/building-hardware
+✅ Internal link: /scam-warnings
+✅ Found 44 valid links on https://www.mitre10.co.nz/trade
+✅ Internal link: /trade/deals
+✅ Internal link: /store-locator
+✅ Internal link: /trade/suppliers

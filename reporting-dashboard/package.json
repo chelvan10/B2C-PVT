@@ -1,0 +1,20 @@
+{
+  "name": "@qa-framework/reporting-dashboard",
+  "version": "1.0.0",
+  "description": "Universal reporting dashboard component for Playwright test frameworks",
+  "main": "src/index.js",
+  "scripts": {
+    "install": "node scripts/install.js",
+    "generate": "node scripts/generate-dashboard.js",
+    "serve": "npx http-server templates -p 8080 -o"
+  },
+  "keywords": ["playwright", "testing", "dashboard", "reporting", "qa"],
+  "author": "Quality Engineering Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

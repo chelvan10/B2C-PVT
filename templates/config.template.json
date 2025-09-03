@@ -1,0 +1,20 @@
+{
+  "environments": {
+    "dev": "https://dev.mitre10.co.nz",
+    "qa": "https://qa.mitre10.co.nz",
+    "prod": "https://www.mitre10.co.nz"
+  },
+  "features": [
+    "Core Rendering & SEO",
+    "Global Navigation",
+    "Critical Links",
+    "Error Handling & Resilience",
+    "Edge/Compatibility",
+    "Performance",
+    "Accessibility",
+    "Visual Baseline"
+  ],
+  "types": ["positive", "negative", "edge", "perf", "a11y", "visual"],
+  "risks": ["high", "medium", "low"],
+  "deviceClasses": ["Mobile", "Tablet", "Desktop"]
+}

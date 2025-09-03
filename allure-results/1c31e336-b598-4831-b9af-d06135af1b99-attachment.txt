@@ -1,0 +1,4 @@
+✅ Invalid path /nonexistent-page handled with status: 404
+✅ Invalid path /test handled with status: 404
+✅ Invalid path //malformed-url handled with status: 404
+✅ Invalid path /search?invalid=params handled with status: 404

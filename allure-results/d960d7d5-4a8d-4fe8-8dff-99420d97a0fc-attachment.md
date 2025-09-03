@@ -1,0 +1,426 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - button "Skip to Header" [ref=e6] [cursor=pointer]
+        - button "Skip to Main Content" [ref=e7] [cursor=pointer]
+        - button "Skip to Footer" [ref=e8] [cursor=pointer]
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - button "Menu" [ref=e14] [cursor=pointer]
+          - link "Mitre 10" [ref=e20] [cursor=pointer]:
+            - /url: /
+            - img "Mitre 10" [ref=e22] [cursor=pointer]
+          - generic [ref=e27]:
+            - generic [ref=e28] [cursor=pointer]:
+              - generic [ref=e29] [cursor=pointer]: Mitre 10 MEGA Rangiora
+              - generic [ref=e30] [cursor=pointer]: Open
+              - generic [ref=e31] [cursor=pointer]: 7:00 am - 6:00 pm
+            - button [expanded] [ref=e33] [cursor=pointer]:
+              - img [ref=e34] [cursor=pointer]
+          - generic [ref=e45]:
+            - textbox "Search for products or inspiration" [ref=e46]
+            - button "search" [ref=e48] [cursor=pointer]:
+              - generic [ref=e49] [cursor=pointer]: search
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic:
+                - generic [ref=e55] [cursor=pointer]: shopping_cart
+                - generic [ref=e56]: "0"
+            - text: 
+      - generic [ref=e57]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img "deals icon" [ref=e64]
+            - heading "Latest Deals & Offers" [level=4] [ref=e66]:
+              - link "Latest Deals & Offers" [ref=e67] [cursor=pointer]:
+                - /url: /catalogue
+          - generic [ref=e68]:
+            - img "Price guarantee icon" [ref=e70]
+            - heading "Our price guarantee" [level=4] [ref=e72]:
+              - link "Our price guarantee" [ref=e73] [cursor=pointer]:
+                - /url: /price-guarantee
+          - generic [ref=e74]:
+            - img "Scam warning icon" [ref=e76]
+            - heading "Scam warning!" [level=4] [ref=e78]:
+              - link "Scam warning!" [ref=e79] [cursor=pointer]:
+                - /url: /scam-warnings
+          - paragraph [ref=e81]:
+            - text: Product Recall & Safety Notices -
+            - strong [ref=e82]:
+              - link "find out more" [ref=e83] [cursor=pointer]:
+                - /url: /product-recalls
+        - generic:
+          - generic:  ›
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e91]:
+              - link [ref=e94] [cursor=pointer]:
+                - /url: /gifts/fathers-day
+              - link [ref=e97] [cursor=pointer]:
+                - /url: /catalogue
+            - generic [ref=e105]:
+              - link "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png 10 % off Rubs & Sauces Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last." [ref=e108] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/shop/search?text=%2710%20percent%20off%20Rubs%20and%20Sauces%20CT0326&q=%2710%20percent%20off%20Rubs%20and%20Sauces%20CT0326
+                - generic [ref=e109] [cursor=pointer]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e111] [cursor=pointer]
+                  - generic [ref=e112] [cursor=pointer]:
+                    - text: "10"
+                    - generic [ref=e113] [cursor=pointer]:
+                      - text: "%"
+                      - generic [ref=e114] [cursor=pointer]: "off"
+                  - generic [ref=e115] [cursor=pointer]:
+                    - heading "Rubs & Sauces" [level=2] [ref=e116] [cursor=pointer]
+                    - paragraph
+                    - paragraph [ref=e117] [cursor=pointer]: Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last.
+              - generic [ref=e119]:
+                - link [ref=e120] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/shop/tui-mobile-vegetable-patch/p/343341
+                - generic [ref=e121]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e123]
+                  - img "Mobile Vegetable Patch" [ref=e124]
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Tui
+                    - generic [ref=e128]: Mobile Vegetable Patch
+                    - generic [ref=e129]: "SKU: 343341"
+                  - generic [ref=e130]:
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: now
+                      - generic [ref=e133]: $
+                      - generic [ref=e134]: "59"
+                      - generic [ref=e135]:
+                        - generic [ref=e136]: .
+                        - text: "98"
+                      - generic [ref=e137]: each
+                      - generic [ref=e138]: Was $79.98
+                    - generic [ref=e139]:
+                      - img [ref=e140]
+                      - generic [ref=e142]: View deal
+              - generic [ref=e143]:
+                - link [ref=e144] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/shop/makita-cordless-drill-driver-combo-kit-2-piece-18-volt-5ah/p/388788
+                - generic [ref=e145]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e147]
+                  - img "Cordless Drill & Driver Combo Kit 2 Piece 18 Volt, 5Ah" [ref=e148]
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: Makita
+                    - generic [ref=e152]: Cordless Drill & Driver Combo Kit 2 Piece 18 Volt, 5Ah
+                    - generic [ref=e153]: "SKU: 388788"
+                  - generic [ref=e154]:
+                    - generic [ref=e155]:
+                      - generic [ref=e156]: now
+                      - generic [ref=e157]: $
+                      - generic [ref=e158]: "399"
+                      - generic [ref=e159]: .
+                      - generic [ref=e160]: each
+                      - generic [ref=e161]: Was $499.00
+                    - generic [ref=e162]:
+                      - img [ref=e163]
+                      - generic [ref=e165]: View deal
+              - generic [ref=e166]:
+                - link [ref=e167] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/shop/garden-highlights-washed-play-sand-15-litre/p/342744
+                - img "Washed Play Sand 15 litre" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - generic [ref=e172]: Garden Highlights
+                    - generic [ref=e173]: Washed Play Sand 15 litre
+                    - generic [ref=e174]: "SKU: 342744"
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - generic [ref=e177]: now
+                      - generic [ref=e178]: $
+                      - generic [ref=e179]: "9"
+                      - generic [ref=e180]:
+                        - generic [ref=e181]: .
+                        - text: "99"
+                      - generic [ref=e182]: each
+                      - generic [ref=e183]: Was $12.99
+                    - generic [ref=e184]:
+                      - img [ref=e185]
+                      - generic [ref=e187]: View deal
+              - link "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png Up to 50 % off Selected Fuller & Fuller Pro Hand Tools Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last. Hand Tools" [ref=e190] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/shop/search?text=%27Up%20to%2050%20percent%20off%20selected%20fuller%20and%20fuller%20pro%20hand%20tools%20CT0326&q=%27Up%20to%2050%20percent%20off%20selected%20fuller%20and%20fuller%20pro%20hand%20tools%20CT0326
+                - generic [ref=e191] [cursor=pointer]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194] [cursor=pointer]:
+                    - generic [ref=e195] [cursor=pointer]: Up to
+                    - generic [ref=e196] [cursor=pointer]:
+                      - text: "50"
+                      - generic [ref=e197] [cursor=pointer]:
+                        - text: "%"
+                        - generic [ref=e198] [cursor=pointer]: "off"
+                  - generic [ref=e199] [cursor=pointer]:
+                    - heading "Selected Fuller & Fuller Pro" [level=2] [ref=e200] [cursor=pointer]
+                    - paragraph [ref=e201] [cursor=pointer]: Hand Tools
+                    - paragraph [ref=e202] [cursor=pointer]: Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last.
+                - img "Hand Tools" [ref=e204] [cursor=pointer]
+              - generic [ref=e205]:
+                - link [ref=e206] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/shop/number-8-oriental-ss-trellis-unframed-38x10-premium-lath-h-1800mm-w-900mm/p/398658
+                - generic [ref=e207]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e209]
+                  - img "Oriental SS Trellis. UnFramed. 38x10 Premium Lath H:1800mm, W:900mm" [ref=e210]
+                - generic [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: Number 8
+                    - generic [ref=e214]: Oriental SS Trellis. UnFramed. 38x10 Premium Lath H:1800mm, W:900mm
+                    - generic [ref=e215]: "SKU: 398658"
+                  - generic [ref=e216]:
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: now
+                      - generic [ref=e219]: $
+                      - generic [ref=e220]: "47"
+                      - generic [ref=e221]:
+                        - generic [ref=e222]: .
+                        - text: "99"
+                      - generic [ref=e223]: each
+                      - generic [ref=e224]: Was $79.98
+                    - generic [ref=e225]:
+                      - img [ref=e226]
+                      - generic [ref=e228]: View deal
+              - link "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png 20 % off Nouveau Laminate Wardrobes Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last. Laminate Wardrobes" [ref=e231] [cursor=pointer]:
+                - /url: https://www.mitre10.co.nz/shop/search?text=%2720%20percent%20off%20Nouveau%20Laminate%20Wardrobes%20CT0326&q=%2720%20percent%20off%20Nouveau%20Laminate%20Wardrobes%20CT0326&inStockNationwide=false&inStockSelectedStore=false&sort=RELEVANCY
+                - generic [ref=e232] [cursor=pointer]:
+                  - img "/medias/sys_master/staticcontent/hee/hcd/8985428951070/KNOCKED-DOWN-DEALS-NEW/KNOCKED-DOWN-DEALS-NEW.png" [ref=e234] [cursor=pointer]
+                  - generic [ref=e235] [cursor=pointer]:
+                    - text: "20"
+                    - generic [ref=e236] [cursor=pointer]:
+                      - text: "%"
+                      - generic [ref=e237] [cursor=pointer]: "off"
+                  - generic [ref=e238] [cursor=pointer]:
+                    - heading "Nouveau" [level=2] [ref=e239] [cursor=pointer]
+                    - paragraph [ref=e240] [cursor=pointer]: Laminate Wardrobes
+                    - paragraph [ref=e241] [cursor=pointer]: Assorted SKUs. Offer valid 21 August - 17 September 2025. Not in conjunction with any other discount. While stocks last.
+                - img "Laminate Wardrobes" [ref=e243] [cursor=pointer]
+            - generic [ref=e244]:
+              - generic:
+                - generic:
+                  - paragraph
+          - link "Be in to WIN your dream kids bedroom makeover" [ref=e248] [cursor=pointer]:
+            - /url: /dreambedroom
+            - img "Be in to WIN your dream kids bedroom makeover" [ref=e249] [cursor=pointer]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e252]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e253]:
+              - generic:
+                - generic:
+                  - paragraph
+            - generic [ref=e254]:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=e255]:
+            - link "A Mitre 10 Easy As icon with a 'Easy As Guides & Advice We can help you get the job done right' heading." [ref=e258] [cursor=pointer]:
+              - /url: /guides-and-advice
+              - img "A Mitre 10 Easy As icon with a 'Easy As Guides & Advice We can help you get the job done right' heading." [ref=e259] [cursor=pointer]
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - link [ref=e266] [cursor=pointer]:
+                  - /url: /guides-and-advice/guide/how-to-reduce-home-heat-loss
+                - generic:
+                  - paragraph
+              - generic [ref=e267]:
+                - link [ref=e269] [cursor=pointer]:
+                  - /url: /guides-and-advice/guide/how-to-grow-strawberries
+                - generic:
+                  - paragraph
+            - generic [ref=e271]:
+              - paragraph [ref=e272]:
+                - strong [ref=e273]:
+                  - link "View all guides >" [ref=e275] [cursor=pointer]:
+                    - /url: https://www.mitre10.co.nz/guides-and-advice/gardening-guides
+              - paragraph
+      - contentinfo [ref=e276]:
+        - generic [ref=e280]:
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - navigation [ref=e284]:
+                - heading "Shopping help" [level=5] [ref=e285]:
+                  - text: Shopping help
+                  - img [ref=e286]
+                - generic [ref=e289]:
+                  - navigation [ref=e290]:
+                    - link "Online shopping help" [ref=e292] [cursor=pointer]:
+                      - /url: /onlineshoppinghelp
+                  - navigation [ref=e293]:
+                    - link "Secure shopping" [ref=e295] [cursor=pointer]:
+                      - /url: /secure-shopping
+                  - navigation [ref=e296]:
+                    - link "Click & Collect" [ref=e298] [cursor=pointer]:
+                      - /url: /collect-in-store
+                  - navigation [ref=e299]:
+                    - link "Payment" [ref=e301] [cursor=pointer]:
+                      - /url: /payment
+                  - navigation [ref=e302]:
+                    - link "Delivery and returns" [ref=e304] [cursor=pointer]:
+                      - /url: /delivery-returns
+                  - navigation [ref=e305]:
+                    - link "Buying from overseas" [ref=e307] [cursor=pointer]:
+                      - /url: /buying-from-overseas
+                  - navigation [ref=e308]:
+                    - link "Terms and conditions" [ref=e310] [cursor=pointer]:
+                      - /url: /terms-conditions
+                  - navigation [ref=e311]:
+                    - link "Scam warnings" [ref=e313] [cursor=pointer]:
+                      - /url: /scam-warnings
+              - navigation [ref=e314]:
+                - heading "Product & services" [level=5] [ref=e315]:
+                  - text: Product & services
+                  - img [ref=e316]
+                - generic [ref=e319]:
+                  - navigation [ref=e320]:
+                    - link "Catalogue" [ref=e322] [cursor=pointer]:
+                      - /url: /catalogue
+                  - navigation [ref=e323]:
+                    - link "Services" [ref=e325] [cursor=pointer]:
+                      - /url: /services
+                  - navigation [ref=e326]:
+                    - link "Airpoints" [ref=e328] [cursor=pointer]:
+                      - /url: /airpoints
+                  - navigation [ref=e329]:
+                    - link "Farmlands" [ref=e331] [cursor=pointer]:
+                      - /url: /farmlands
+                  - navigation [ref=e332]:
+                    - link "Gift card information" [ref=e334] [cursor=pointer]:
+                      - /url: /gift-card-information
+                  - navigation [ref=e335]:
+                    - link "Store card information" [ref=e337] [cursor=pointer]:
+                      - /url: /store-card-information
+                  - navigation [ref=e338]:
+                    - link "Product recalls" [ref=e340] [cursor=pointer]:
+                      - /url: /product-recalls
+                  - navigation [ref=e341]:
+                    - link "Ratings and reviews" [ref=e343] [cursor=pointer]:
+                      - /url: /ratings-reviews
+                  - navigation [ref=e344]:
+                    - link "Insulation install free assessment" [ref=e346] [cursor=pointer]:
+                      - /url: /insulation-installation?link=insulation-footerlink
+              - navigation [ref=e347]:
+                - heading "Club & accounts" [level=5] [ref=e348]:
+                  - text: Club & accounts
+                  - img [ref=e349]
+                - generic [ref=e352]:
+                  - navigation [ref=e353]:
+                    - link "Register" [ref=e355] [cursor=pointer]:
+                      - /url: /register
+                  - navigation [ref=e356]:
+                    - link "Sign in" [ref=e358] [cursor=pointer]:
+                      - /url: /login
+                  - navigation [ref=e359]:
+                    - link "Club" [ref=e361] [cursor=pointer]:
+                      - /url: /club
+                  - navigation [ref=e362]:
+                    - link "Club terms and conditions" [ref=e364] [cursor=pointer]:
+                      - /url: /terms-conditions#M10_Clubs
+                  - navigation [ref=e365]:
+                    - link "Privacy policy" [ref=e367] [cursor=pointer]:
+                      - /url: /privacy
+              - navigation [ref=e368]:
+                - heading "Mitre 10" [level=5] [ref=e369]:
+                  - text: Mitre 10
+                  - img [ref=e370]
+                - generic [ref=e373]:
+                  - navigation [ref=e374]:
+                    - link "About Mitre 10" [ref=e376] [cursor=pointer]:
+                      - /url: /about-mitre-10
+                  - navigation [ref=e377]:
+                    - link "Community" [ref=e379] [cursor=pointer]:
+                      - /url: /community
+                  - navigation [ref=e380]:
+                    - link "Contact us" [ref=e382] [cursor=pointer]:
+                      - /url: /contact-us
+                  - navigation [ref=e383]:
+                    - link "Jobs at Mitre 10" [ref=e385] [cursor=pointer]:
+                      - /url: https://careers.mitre10.co.nz/
+                  - navigation [ref=e386]:
+                    - link "News" [ref=e388] [cursor=pointer]:
+                      - /url: /news
+                  - navigation [ref=e389]:
+                    - link "Price guarantee" [ref=e391] [cursor=pointer]:
+                      - /url: /price-guarantee
+                  - navigation [ref=e392]:
+                    - link "Sustainability" [ref=e394] [cursor=pointer]:
+                      - /url: /sustainability
+                  - navigation [ref=e395]:
+                    - link "Your say" [ref=e397] [cursor=pointer]:
+                      - /url: /yoursay
+                  - navigation:
+                    - heading [level=5]
+            - generic [ref=e399]:
+              - paragraph [ref=e400]: Online payment options
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - img "Visa." [ref=e403]
+                - listitem [ref=e404]:
+                  - img "Mastercard." [ref=e405]
+                - listitem [ref=e406]:
+                  - img "Gem Visa." [ref=e407]
+                - listitem [ref=e408]:
+                  - img "M10 Giftcard." [ref=e409]
+                - listitem [ref=e410]:
+                  - img "Afterpay." [ref=e411]
+                - listitem [ref=e412]:
+                  - img "Click to Pay." [ref=e413]
+                - listitem [ref=e414]:
+                  - img "Q card." [ref=e415]
+                - listitem [ref=e416]:
+                  - img "Farmlands Card." [ref=e417]
+              - paragraph [ref=e418]:
+                - text: Additional payment options available at
+                - link "selected stores" [ref=e419] [cursor=pointer]:
+                  - /url: https://www.mitre10.co.nz/payment
+            - generic [ref=e420]:
+              - link "Contact customer support." [ref=e421] [cursor=pointer]:
+                - /url: /contact-us
+                - paragraph [ref=e422] [cursor=pointer]: Contact customer support.
+              - link "To contact your local Trade team 0800 4 MITRE 10" [ref=e423] [cursor=pointer]:
+                - /url: tel:0800 4MITRE 10
+                - paragraph [ref=e424] [cursor=pointer]:
+                  - text: To contact your local Trade team
+                  - generic [ref=e425] [cursor=pointer]: 0800 4 MITRE 10
+          - generic [ref=e427]:
+            - list:
+              - listitem
+              - listitem
+            - list [ref=e429]:
+              - listitem [ref=e430]:
+                - link "Facebook." [ref=e431] [cursor=pointer]:
+                  - /url: https://www.facebook.com/mitre10?fref=ts
+                  - img "Facebook." [ref=e432] [cursor=pointer]
+              - listitem [ref=e433]:
+                - link "YouTube." [ref=e434] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/mitre10nz
+                  - img "YouTube." [ref=e435] [cursor=pointer]
+              - listitem [ref=e436]:
+                - link "Pinterest." [ref=e437] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/mitre10nz/
+                  - img "Pinterest." [ref=e438] [cursor=pointer]
+              - listitem [ref=e439]:
+                - link "Instagram." [ref=e440] [cursor=pointer]:
+                  - /url: http://instagram.com/mitre10nz/
+                  - img "Instagram." [ref=e441] [cursor=pointer]
+              - listitem [ref=e442]
+    - text: 
+  - button "Your say feedback" [ref=e444] [cursor=pointer]:
+    - img "Your say feedback" [ref=e445] [cursor=pointer]
+  - button [ref=e447] [cursor=pointer]:
+    - img [ref=e448] [cursor=pointer]
+```

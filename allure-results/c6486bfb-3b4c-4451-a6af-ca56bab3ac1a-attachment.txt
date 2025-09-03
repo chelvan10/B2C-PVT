@@ -1,0 +1,6 @@
+🚀 Concurrent test results:
+          - Requests: 10
+          - Successful: 10
+          - Success rate: 100.0%
+          - Total time: 1566ms
+          - Avg per request: 157ms

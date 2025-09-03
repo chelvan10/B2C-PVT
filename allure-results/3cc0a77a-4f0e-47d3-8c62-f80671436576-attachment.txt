@@ -1,0 +1,3 @@
+✅ Security header present: x-frame-options
+✅ Security header present: x-content-type-options
+✅ Security header present: strict-transport-security

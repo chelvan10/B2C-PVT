@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Engineering Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #323130;
+        }
+
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #0078d4;
+            margin-bottom: 10px;
+        }
+
+        .executive-summary {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #0078d4;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tile {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .tile:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .tile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .tile-icon {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        .tile-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #323130;
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: #605e5c;
+            margin-bottom: 5px;
+        }
+
+        .status-good { color: #107c10; }
+        .status-warning { color: #ff8c00; }
+        .status-error { color: #d13438; }
+
+        .chart-container {
+            position: relative;
+            height: 200px;
+            margin-top: 15px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #f3f2f1;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0078d4, #40e0d0);
+            transition: width 0.3s ease;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: white;
+            margin: 30px 0 20px 0;
+            text-align: center;
+        }
+
+        .platform-grid {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .platform-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .platform-success {
+            background: #dff6dd;
+            color: #107c10;
+        }
+
+        .platform-error {
+            background: #fde7e9;
+            color: #d13438;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>🏆 Quality Engineering Dashboard</h1>
+            <div class="executive-summary" id="executiveSummary">
+                <div class="loading">Loading test metrics...</div>
+            </div>
+        </div>
+
+        <div class="section-title">📊 Test Execution & Coverage</div>
+        <div class="grid">
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">⚡</span>
+                    <span class="tile-title">Execution Velocity</span>
+                </div>
+                <div class="metric-value" id="executionTime">--</div>
+                <div class="metric-label">seconds</div>
+                <div class="chart-container">
+                    <canvas id="velocityChart"></canvas>
+                </div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">📈</span>
+                    <span class="tile-title">Pass/Failure Rate</span>
+                </div>
+                <div class="metric-value status-good" id="passRate">--</div>
+                <div class="metric-label">pass rate</div>
+                <div class="chart-container">
+                    <canvas id="passRateChart"></canvas>
+                </div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🎯</span>
+                    <span class="tile-title">Test Coverage</span>
+                </div>
+                <div class="metric-value" id="coverage">--</div>
+                <div class="metric-label">features covered</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="coverageProgress"></div>
+                </div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🚀</span>
+                    <span class="tile-title">Parallel Execution</span>
+                </div>
+                <div class="metric-value" id="parallelWorkers">--</div>
+                <div class="metric-label">workers</div>
+                <div class="metric-value" style="font-size: 1.2rem;" id="parallelEfficiency">--</div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🌐</span>
+                    <span class="tile-title">Cross-Platform Tests</span>
+                </div>
+                <div class="platform-grid" id="platformGrid">
+                    <!-- Platforms will be populated here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">🛡️ Quality & Stability Metrics</div>
+        <div class="grid">
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🔍</span>
+                    <span class="tile-title">Defect Detection</span>
+                </div>
+                <div class="metric-value status-error" id="defectsFound">--</div>
+                <div class="metric-label">defects found</div>
+                <div class="chart-container">
+                    <canvas id="defectChart"></canvas>
+                </div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">⚠️</span>
+                    <span class="tile-title">Flaky Test Rate</span>
+                </div>
+                <div class="metric-value" id="flakyRate">--</div>
+                <div class="metric-label">flaky tests</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="flakyProgress" style="background: #ff8c00;"></div>
+                </div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🏗️</span>
+                    <span class="tile-title">Framework Stability</span>
+                </div>
+                <div class="metric-value status-good" id="stabilityScore">--</div>
+                <div class="metric-label">stability score</div>
+                <div class="metric-value" style="font-size: 1rem;" id="stabilityDetails">--</div>
+            </div>
+
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">🎯</span>
+                    <span class="tile-title">Critical Path Coverage</span>
+                </div>
+                <div class="metric-value status-good" id="criticalCoverage">--</div>
+                <div class="metric-label">critical paths</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="criticalProgress"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">⚡ Performance Metrics</div>
+        <div class="grid">
+            <div class="tile">
+                <div class="tile-header">
+                    <span class="tile-icon">📊</span>
+                    <span class="tile-title">Test Performance</span>
+                </div>
+                <div class="metric-value" id="avgDuration">--</div>
+                <div class="metric-label">avg test duration (ms)</div>
+                <div class="chart-container">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

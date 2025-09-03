@@ -1,0 +1,143 @@
+{
+  "config": {
+    "configFile": "/home/ari/B2C PVT Demo/config/playwright.config.ts",
+    "rootDir": "/home/ari/B2C PVT Demo/config",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/home/ari/B2C PVT Demo/utils/global-setup.ts",
+    "globalTeardown": "/home/ari/B2C PVT Demo/utils/global-teardown.ts",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "/home/ari/B2C PVT Demo/utils/dashboard-reporter.ts",
+        null
+      ],
+      [
+        "list",
+        {
+          "printSteps": true
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "reports/html"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/ari/B2C PVT Demo/config/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "b2c-desktop-chrome",
+        "name": "b2c-desktop-chrome",
+        "testDir": "/home/ari/B2C PVT Demo/config/B2C/tests",
+        "testIgnore": [
+          "**/archive/**"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/ari/B2C PVT Demo/config/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "b2c-mobile-android",
+        "name": "b2c-mobile-android",
+        "testDir": "/home/ari/B2C PVT Demo/config/B2C/tests",
+        "testIgnore": [
+          "**/archive/**"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/ari/B2C PVT Demo/config/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "b2b-desktop-chrome",
+        "name": "b2b-desktop-chrome",
+        "testDir": "/home/ari/B2C PVT Demo/config/B2B/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/ari/B2C PVT Demo/config/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "b2b-mobile-android",
+        "name": "b2b-mobile-android",
+        "testDir": "/home/ari/B2C PVT Demo/config/B2B/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/ari/B2C PVT Demo/config/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "1centre-desktop-chrome",
+        "name": "1centre-desktop-chrome",
+        "testDir": "/home/ari/B2C PVT Demo/config/1Centre/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: No tests found",
+      "stack": "Error: No tests found"
+    }
+  ],
+  "stats": {
+    "startTime": "2025-08-30T01:43:13.200Z",
+    "duration": 6.610000000000014,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,21 @@
+# Enterprise Pre-Commit Security Hooks
+repos:
+  - repo: local
+    hooks:
+      - id: security-scan
+        name: Security Vulnerability Scan
+        entry: node utils/security/vulnerability-scanner.js
+        language: system
+        files: \.(js|ts|jsx|tsx)$
+        
+      - id: credential-check
+        name: Hardcoded Credential Check
+        entry: bash -c 'if grep -r "password.*=" --include="*.ts" --include="*.js" . | grep -v process.env | grep -v CHANGE_ME; then echo "❌ Hardcoded credentials found"; exit 1; fi'
+        language: system
+        files: \.(js|ts)$
+        
+      - id: ai-guardrails
+        name: AI Security Guardrails
+        entry: node utils/security/ai-guardrails.js
+        language: system
+        files: \.(js|ts)$

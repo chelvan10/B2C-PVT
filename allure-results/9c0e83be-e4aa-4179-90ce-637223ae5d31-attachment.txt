@@ -1,0 +1,2 @@
+✅ Found 5 service/hire links (recommend data-testid="services-list")
+✅ Total service elements: 5

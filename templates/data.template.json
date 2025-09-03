@@ -1,0 +1,23 @@
+{
+  "homepage": {
+    "validUser": {
+      "email": "user@example.com",
+      "password": "Password123!"
+    },
+    "invalidUser": {
+      "email": "invalid@example.com",
+      "password": "wrongpass"
+    },
+    "viewports": [
+      { "name": "Mobile Small", "w": 320, "h": 568 },
+      { "name": "Mobile Medium", "w": 375, "h": 667 },
+      { "name": "Tablet", "w": 768, "h": 1024 },
+      { "name": "Tablet Landscape", "w": 1024, "h": 768 },
+      { "name": "Desktop Large", "w": 1920, "h": 1080 }
+    ],
+    "networkProfiles": [
+      { "name": "Slow3G", "down": 500000, "up": 500000, "lat": 400 },
+      { "name": "Fast3G", "down": 1500000, "up": 750000, "lat": 40 }
+    ]
+  }
+}

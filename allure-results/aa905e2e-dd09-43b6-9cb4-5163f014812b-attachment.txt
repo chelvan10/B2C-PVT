@@ -1,0 +1,3 @@
+ℹ️ Search endpoint not available for term: tables
+ℹ️ Search endpoint not available for term: chairs
+ℹ️ Search endpoint not available for term: tools

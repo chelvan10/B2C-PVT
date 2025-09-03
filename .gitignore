@@ -1,0 +1,28 @@
+# Enterprise-grade .gitignore for B2C PVT Demo
+
+# Auto-generated files (contain CWE vulnerabilities)
+playwright-report/
+config/playwright-report/
+test-results/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage reports
+coverage/
+
+# Temporary files
+.tmp/
+temp/

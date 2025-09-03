@@ -1,0 +1,93 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Test File",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "scripts/universal-test-runner.js",
+        "${relativeFile}"
+      ],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Test File with Coverage",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "scripts/universal-test-runner.js",
+        "${relativeFile}",
+        "--coverage"
+      ],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Debug Test File",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "scripts/universal-test-runner.js",
+        "${relativeFile}",
+        "--debug"
+      ],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Test File (Headed)",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "scripts/universal-test-runner.js",
+        "${relativeFile}",
+        "--headed"
+      ],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Test Directory",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "scripts/universal-test-runner.js",
+        "${relativeFileDirname}"
+      ],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

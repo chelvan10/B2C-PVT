@@ -1,0 +1,3 @@
+⚡ / responded in 59ms
+⚡ /search responded in 296ms
+⚡ /stores responded in 409ms

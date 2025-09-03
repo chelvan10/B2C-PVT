@@ -1,0 +1,3 @@
+✅ Found 5 service elements: a[href*="service"], a[href*="hire"]
+✅ Found 5 total service-related elements
+✅ Services page content validated
